@@ -1,0 +1,17 @@
+.button{
+  margin-top: 10px;
+  padding-left: 50px;
+}
+
+.kidney-page svg path {
+  fill: #3b82f6; 
+  pointer-events: auto;   
+}
+
+.kidney-page svg path#stomach {
+  fill: red !important;
+}
+
+.detail{
+  padding: 20px;
+}

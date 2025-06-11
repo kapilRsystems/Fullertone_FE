@@ -1,0 +1,71 @@
+.progress-container {
+  position: relative; 
+  width: 100%;
+  height: 15px;
+  background-color: #e0e0e0;
+  overflow: visible; 
+  margin-top: 10px;
+
+}
+
+.progress-fill {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to right, yellow 0%, green 50%, red 100%);
+  
+
+}
+
+.marker {
+  position: absolute;
+  top: -30px;
+  transform: translateX(-50%);
+  color: black;
+  padding: 0px 6px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+
+.marker::after {
+  content: '';
+  position: absolute;
+  top: 100%;        
+  left: 50%;       
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;     
+  background-color: #222;
+}
+
+
+.cloud {
+  position: absolute;
+  top: -60px;
+  transform: translateX(-50%);
+  background-color: green;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  z-index: 15;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.cloud::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid green;
+}

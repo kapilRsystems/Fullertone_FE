@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.containerH{
+    margin-top: 40px;
+}
+
+.home-body svg path {
+  fill: #3b82f6 ;
+  pointer-events: none;
+}
