@@ -1,0 +1,405 @@
+{
+  "pap_Smear":[
+    {
+  "pap_smear_scenarios": {
+    "parameters": {
+      "priority_1": "Negative for Malignancy",
+      "group_2": "ASCUS",
+      "group_3": "SIL/LSIL",
+      "group_4": "CIN",
+      "group_5": "Yeast",
+      "endometrial_cells": "Endometrial Cells",
+      "age": "Age",
+      "reactive_cellular_changes": "Reactive Cellular Changes",
+      "reactive_atypia": "Reactive Atypia"
+    },
+    "scenarios": [
+      {
+        "scenario": 1,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": false,
+          "age": null,
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Normal",
+        "follow_up": "Your Pap smear test is normal. It is recommended to repeat this test once every 3 years."
+      },
+      {
+        "scenario": 2,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": false,
+          "age": null,
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 3,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": false,
+          "age": null,
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 4,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": false,
+          "age": null,
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended.\n\nYour Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch.\n\nPlease consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 5,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": true,
+          "age": "<=40",
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Normal",
+        "follow_up": "Your Pap smear test is normal. It is recommended to repeat this test once every 3 years."
+      },
+      {
+        "scenario": 6,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": true,
+          "age": ">40",
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is normal, however endometrial cells are present. A human papillomavirus (HPV) DNA test is recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 7,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": true,
+          "age": "<=40",
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 8,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": true,
+          "age": ">40",
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch.\n\nEndometrial cells are present. A human papillomavirus (HPV) DNA test is recommended.\n\nPlease consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 9,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": true,
+          "age": "<=40",
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 10,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": true,
+          "age": ">40",
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 11,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": true,
+          "age": "<=40",
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended.\n\nYour Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch.\n\nPlease consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 12,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": true,
+          "age": ">40",
+          "reactive_cellular_changes": false,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended.\n\nYour Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch.\n\nPlease consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 13,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": false,
+          "age": null,
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Normal",
+        "follow_up": "Your Pap smear test is normal. It is recommended to repeat this test once every 3 years."
+      },
+      {
+        "scenario": 14,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": false,
+          "age": null,
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 15,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": false,
+          "age": null,
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 16,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": false,
+          "age": null,
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended.\n\nYour Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch.\n\nPlease consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 17,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": true,
+          "age": "<=40",
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Normal",
+        "follow_up": "Your Pap smear test is normal. It is recommended to repeat this test once every 3 years."
+      },
+      {
+        "scenario": 18,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": true,
+          "age": ">40",
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is normal, however endometrial cells are present. A human papillomavirus (HPV) DNA test is recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 19,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": true,
+          "age": "<=40",
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 20,
+        "parameters": {
+          "negative_for_malignancy": true,
+          "ascus": false,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": true,
+          "age": ">40",
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch.\n\nEndometrial cells are present. A human papillomavirus (HPV) DNA test is recommended.\n\nPlease consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 21,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": true,
+          "age": "<=40",
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 22,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": false,
+          "endometrial_cells": true,
+          "age": ">40",
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 23,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": true,
+          "age": "<=40",
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended.\n\nYour Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch.\n\nPlease consult our doctor for further medical advice."
+      },
+      {
+        "scenario": 24,
+        "parameters": {
+          "negative_for_malignancy": false,
+          "ascus": true,
+          "sil_lsil": false,
+          "cin": false,
+          "yeast": true,
+          "endometrial_cells": true,
+          "age": ">40",
+          "reactive_cellular_changes": true,
+          "reactive_atypia": false
+        },
+        "result": "Abnormal",
+        "follow_up": "Your Pap smear is abnormal. This puts you at increased risk for cervical dysplasia, cervial intraepithelial lesion, and cervical cancer. A human papillomavirus (HPV) DNA test is recommended.\n\nYour Pap smear shows yeast infection. Treatment is recommended especially if you are experiencing increased vaginal discharge or itch.\n\nPlease consult our doctor for further medical advice."
+      }
+    ]
+  }
+}
+  ]
+}

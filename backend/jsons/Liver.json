@@ -1,0 +1,384 @@
+{
+  "liver_function_tests": [
+    {
+      "parameter_number": 1,
+      "test_name": "Total Protein (2885-2)",
+      "remarks": "",
+      "cutoff_ranges": [
+        {
+          "range": "< 6.0",
+          "units": "g/dL",
+          "result": "Low",
+          "follow_up": "Your total protein level is low. Total protein consists of albumin and globulin. Decreased levels of either of these proteins may be associated with insufficient nutritional intake and possibly liver disease. Please consult our doctor for further medical advice."
+        },
+        {
+          "range": "6.0 - 8.0",
+          "units": "g/dL",
+          "result": "Normal",
+          "follow_up": ""
+        },
+        {
+          "range": "> 8.0",
+          "units": "g/dL",
+          "result": "High",
+          "follow_up": "Your total protein level is high. Total protein consists of albumin and globulin. Increased levels of either or both of these proteins may be associated with dehydration and possibly liver disease. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter_number": 2,
+      "test_name": "Albumin (X300007)",
+      "remarks": "",
+      "cutoff_ranges": [
+        {
+          "range": "< 3.5",
+          "units": "g/dL",
+          "result": "Low",
+          "follow_up": "Your albumin level is low."
+        },
+        {
+          "range": "3.5 - 5.0",
+          "units": "g/dL",
+          "result": "Normal",
+          "follow_up": ""
+        },
+        {
+          "range": "> 5.0",
+          "units": "g/dL",
+          "result": "High",
+          "follow_up": "Your albumin level is high."
+        }
+      ]
+    },
+    {
+      "parameter_number": 3,
+      "test_name": "Globulin (10834-0)",
+      "remarks": "",
+      "cutoff_ranges": [
+        {
+          "range": "< 2.0",
+          "units": "g/dL",
+          "result": "Low",
+          "follow_up": "Your globulin level is low."
+        },
+        {
+          "range": "2.0 - 3.4",
+          "units": "g/dL",
+          "result": "Normal",
+          "follow_up": ""
+        },
+        {
+          "range": "> 3.4",
+          "units": "g/dL",
+          "result": "High",
+          "follow_up": "Your globulin level is high."
+        }
+      ]
+    },
+    {
+      "parameter_number": 4,
+      "test_name": "A/G Ratio (1759-0)",
+      "remarks": "",
+      "cutoff_ranges": [
+        {
+          "range": "< 1.3",
+          "units": "Ratio",
+          "result": "Low",
+          "follow_up": "Your A/G ratio is below normal limits."
+        },
+        {
+          "range": "1.3 - 2.4",
+          "units": "Ratio",
+          "result": "Normal",
+          "follow_up": ""
+        },
+        {
+          "range": "> 2.4",
+          "units": "Ratio",
+          "result": "Raised",
+          "follow_up": "Your A/G ratio is above normal limits."
+        }
+      ]
+    },
+    {
+      "parameter_number": 5,
+      "test_name": "Total Bilirubin (1975-2)",
+      "remarks": "",
+      "cutoff_ranges": [
+        {
+          "range": "<1.3",
+          "units": "mg/dL",
+          "result": "Normal",
+          "follow_up": ""
+        },
+        {
+          "range": ">= 1.3",
+          "units": "mg/dL",
+          "result": "High",
+          "follow_up": "Your total bilirubin level is high. Elevated levels of bilirubin may be associated with anaemia, gallstones, viral hepatitis, liver disease, and bile duct disease. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter_number": 6,
+      "test_name": "Direct Bilirubin",
+      "remarks": "",
+      "cutoff_ranges": [
+        {
+          "range": "< 0.1",
+          "units": "mg/dL",
+          "result": "Low",
+          "follow_up": "Your serum direct bilirubin is low."
+        },
+        {
+          "range": "0.10-0.50",
+          "units": "mg/dL",
+          "result": "Normal",
+          "follow_up": ""
+        },
+        {
+          "range": ">0.50",
+          "units": "mg/dL",
+          "result": "High",
+          "follow_up": "Your serum direct bilirubin is high. Elevated levels of bilirubin may be associated with anaemia, gallstones, viral hepatitis, liver disease, and bile duct disease. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter_number": 7,
+      "test_name": "Indirect Bilirubin",
+      "remarks": "",
+      "cutoff_ranges": [
+        {
+          "range": "< 0.91",
+          "units": "mg/dL",
+          "result": "Normal",
+          "follow_up": ""
+        },
+        {
+          "range": ">= 0.91",
+          "units": "mg/dL",
+          "result": "High",
+          "follow_up": "Your serum indirect bilirubin is high. Elevated levels of bilirubin may be associated with anaemia, gallstones, viral hepatitis, liver disease, and bile duct disease. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter_number": 8,
+      "test_name": "ALP (Alkaline Phosphatase)",
+      "remarks": "",
+      "gender_specific_ranges": [
+        {
+          "gender": "Male, > 18 years",
+          "cutoff_ranges": [
+            {
+              "range": "< 130",
+              "units": "U/L",
+              "result": "Normal",
+              "follow_up": ""
+            },
+            {
+              "range": ">= 130",
+              "units": "U/L",
+              "result": "High",
+              "follow_up": "Your ALP level is high. Elevated levels of ALP is associated with fatty liver, cirrhosis, and liver disease. It is advisable to minimize alcohol consumption and adhere to a low fat/cholesterol diet. A repeat blood test and ultrasound liver are recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "gender": "Female, > 18 years",
+          "cutoff_ranges": [
+            {
+              "range": "< 105",
+              "units": "U/L",
+              "result": "Normal",
+              "follow_up": ""
+            },
+            {
+              "range": ">=105",
+              "units": "U/L",
+              "result": "High",
+              "follow_up": "Your ALP level is high. Elevated levels of ALP is associated with fatty liver, cirrhosis, and liver disease. It is advisable to minimize alcohol consumption and adhere to a low fat/cholesterol diet. A repeat blood test and ultrasound liver are recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameter_number": 9,
+      "test_name": "SGPT ALT (1742-6)",
+      "remarks": "",
+      "gender_specific_ranges": [
+        {
+          "gender": "Male",
+          "cutoff_ranges": [
+            {
+              "range": "< 51",
+              "units": "U/L",
+              "result": "Normal",
+              "follow_up": ""
+            },
+            {
+              "range": ">= 51",
+              "units": "U/L",
+              "result": "High",
+              "follow_up": "Your ALT level is high. Elevated levels of ALT is associated with fatty liver, cirrhosis, and liver disease. It is advisable to minimize alcohol consumption and adhere to a low fat/cholesterol diet. A repeat blood test and ultrasound liver are recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "gender": "Female",
+          "cutoff_ranges": [
+            {
+              "range": "< 36",
+              "units": "U/L",
+              "result": "Normal",
+              "follow_up": ""
+            },
+            {
+              "range": ">= 36",
+              "units": "U/L",
+              "result": "High",
+              "follow_up": "Your ALT level is high. Elevated levels of ALT is associated with fatty liver, cirrhosis, and liver disease. It is advisable to minimize alcohol consumption and adhere to a low fat/cholesterol diet. A repeat blood test and ultrasound liver are recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameter_number": 10,
+      "test_name": "SGOT AST (1920-8)",
+      "remarks": "",
+      "gender_specific_ranges": [
+        {
+          "gender": "Male",
+          "cutoff_ranges": [
+            {
+              "range": "< 51",
+              "units": "U/L",
+              "result": "Normal",
+              "follow_up": ""
+            },
+            {
+              "range": ">= 51",
+              "units": "U/L",
+              "result": "High",
+              "follow_up": "Your AST level is high. Elevated levels of AST is associated with fatty liver, cirrhosis, and liver disease. It is advisable to minimize alcohol consumption and adhere to a low fat/cholesterol diet. A repeat blood test and ultrasound liver are recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "gender": "Female",
+          "cutoff_ranges": [
+            {
+              "range": "< 36",
+              "units": "U/L",
+              "result": "Normal",
+              "follow_up": ""
+            },
+            {
+              "range": ">= 36",
+              "units": "U/L",
+              "result": "High",
+              "follow_up": "Your AST level is high. Elevated levels of AST is associated with fatty liver, cirrhosis, and liver disease. It is advisable to minimize alcohol consumption and adhere to a low fat/cholesterol diet. A repeat blood test and ultrasound liver are recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameter_number": 10,
+      "test_name": "GGT (2324-2)",
+      "remarks": "",
+      "gender_specific_ranges": [
+        {
+          "gender": "Male",
+          "cutoff_ranges": [
+            {
+              "range": "< 60",
+              "units": "U/L",
+              "result": "Normal",
+              "follow_up": ""
+            },
+            {
+              "range": ">= 60",
+              "units": "U/L",
+              "result": "High",
+              "follow_up": "Your GGT level is high. Elevated levels of GGT is associated with fatty liver, cirrhosis, and liver disease. It is advisable to minimize alcohol consumption and adhere to a low fat/cholesterol diet. A repeat blood test and ultrasound liver are recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "gender": "Female",
+          "cutoff_ranges": [
+            {
+              "range": "< 40",
+              "units": "U/L",
+              "result": "Normal",
+              "follow_up": ""
+            },
+            {
+              "range": ">= 40",
+              "units": "U/L",
+              "result": "High",
+              "follow_up": "Your GGT level is high. Elevated of GGT is associated with fatty liver, cirrhosis, and liver disease. It is advisable to minimize alcohol consumption and adhere to a low fat/cholesterol diet. A repeat blood test and ultrasound liver are recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameter_number": 11,
+      "test_name": "FIB-4 Score",
+      "remarks": "",
+      "age_specific_ranges": [
+        {
+          "age_group": "36 - <65 Years",
+          "cutoff_ranges": [
+            {
+              "range": "< 1.30",
+              "units": "Score",
+              "result": "Low",
+              "follow_up": ""
+            },
+            {
+              "range": "1.30 - 2.67",
+              "units": "Score",
+              "result": "Indeterminate",
+              "follow_up": "Your FIB-4 score is indeterminate, it shows you may need further investigation for liver fibrosis. The most common causes of liver fibrosis include iron overload, non-alcoholic fatty liver disease, and viral hepatitis B and C. Fibrotic liver may lead to cirrhosis or liver cancer. Magnetic resonance elastography (MRE) liver scan is recommended. Please consult our doctor for further medical advice."
+            },
+            {
+              "range": "> 2.67",
+              "units": "Score",
+              "result": "High",
+              "follow_up": "Your FIB-4 score is high, it shows you may have advanced fibrosis or cirrhosis. The most common causes of liver fibrosis include iron overload, non-alcoholic fatty liver disease, and viral hepatitis B and C. Fibrotic liver may lead to cirrhosis or liver cancer. Magnetic resonance elastography (MRE) liver scan is recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "age_group": ">= 65 Years",
+          "cutoff_ranges": [
+            {
+              "range": "< 2.0",
+              "units": "Score",
+              "result": "Low",
+              "follow_up": ""
+            },
+            {
+              "range": "2.0 - 2.67",
+              "units": "Score",
+              "result": "Indeterminate",
+              "follow_up": "Your FIB-4 score is indeterminate, it shows you may need further investigation for liver fibrosis. The most common causes of liver fibrosis include iron overload, non-alcoholic fatty liver disease, and viral hepatitis B and C. Fibrotic liver may lead to cirrhosis or liver cancer. Magnetic resonance elastography (MRE) liver scan is recommended. Please consult our doctor for further medical advice."
+            },
+            {
+              "range": "> 2.67",
+              "units": "Score",
+              "result": "High",
+              "follow_up": "Your FIB-4 score is high, it shows you may have advanced fibrosis or cirrhosis. The most common causes of liver fibrosis include iron overload, non-alcoholic fatty liver disease, and viral hepatitis B and C. Fibrotic liver may lead to cirrhosis or liver cancer. Magnetic resonance elastography (MRE) liver scan is recommended. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

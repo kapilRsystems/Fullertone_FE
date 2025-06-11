@@ -1,0 +1,32 @@
+{
+  "parameter": "LUNGClear",
+  "riskLevels": [
+    {
+      "remark": "Low Risk",
+      "meshCutOff": "<37 (inclusive)",
+      "meshUnits": "Score",
+      "panelRepresentation": "Scale Bar (Shown)",
+      "krRepresentation": "LUNGClear Low Risk: 30 Score",
+      "meshFollowUp": "Low risk' means that in the likelihood of lung cancer being present is not elevated, relative to baseline population at the time of testing. However, it does not definitively exclude the presence of lung cancer.",
+      "customerFollowUp": ""
+    },
+    {
+      "remark": "Intermediate Risk",
+      "meshCutOff": "37 - 51.8 (inclusive)",
+      "meshUnits": "Score",
+      "panelRepresentation": "Scale Bar (shown)",
+      "krRepresentation": "LUNGClear Intermediate Risk: 45 Score", 
+      "meshFollowUp": "Intermediate Risk' means that the likelihood of lung cancer being present is slightly elevated, relative to baseline population at the time of testing. Further medical evaluation may be appropriate.",
+      "customerFollowUp": ""
+    },
+    {
+      "remark": "High Risk",
+      "meshCutOff": "> 51.8",
+      "meshUnits": "Score",
+      "panelRepresentation": "Scale Bar (shown)",
+      "krRepresentation": "LUNGClear High Risk: 55 Score",
+      "meshFollowUp": "High Risk' means that the likelihood of lung cancer being present is elevated, relative to baseline population at the time of testing. Further medical evaluation is advised.",
+      "customerFollowUp": ""
+    }
+  ]
+}

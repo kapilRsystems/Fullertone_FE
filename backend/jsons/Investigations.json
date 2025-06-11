@@ -1,0 +1,113 @@
+{
+  "Investigations":[
+  {
+    "No": 1,
+    "Parameter": "Spirometry",
+    "Results": [
+      {
+        "Result": "Normal",
+        "Potential Issues": "",
+        "TAoC Follow-up": "-"
+      },
+      {
+        "Result": "Restrictive",
+        "Potential Issues": "Lungs",
+        "TAoC Follow-up": "Your spirometry (lung function test) shows a restrictive pattern. However, this test has a high incidence of false positive, which may be due to suboptimal technique. A repeat test is recommended. A restrictive pattern may be due to underlying lung conditions, such as pulmonary fibrosis and cystic fibrosis, which cause lung scarring. Please consult our doctor for further medical advice if you have respiratory symptoms and poor exercise tolerance."
+      },
+      {
+        "Result": "Obstructive",
+        "Potential Issues": "Lungs",
+        "TAoC Follow-up": "Your spirometry (lung function test) shows an obstructive pattern. However, this test has a high incidence of false positive, which may be due to suboptimal technique. A repeat test is recommended. An obstructive pattern is commonly associated with smoking and asthma. Please consult our doctor for further medical advice if you have respiratory symptoms and poor exercise tolerance."
+      },
+      {
+        "Result": "Restrictive and Obstructive",
+        "Potential Issues": "Lungs",
+        "TAoC Follow-up": "Your spirometry (lung function test) shows a restrictive with obstructive pattern. However, this test has a high incidence of false positive, which may be due to suboptimal technique. A repeat test is recommended. A restrictive pattern may be due to underlying lung conditions, such as pulmonary fibrosis and cystic fibrosis, which cause lung scarring. Please consult our doctor for further medical advice if you have respiratory symptoms and poor exercise tolerance."
+      },
+      {
+        "Result": "Obstructive and Restrictive",
+        "Potential Issues": "Lungs",
+        "TAoC Follow-up": "Your spirometry (lung function test) shows an obstructive with restrictive pattern. However, this test has a high incidence of false positive, which may be due to suboptimal technique. A repeat test is recommended. An obstructive pattern is commonly associated with smoking and asthma. Please consult our doctor for further medical advice if you have respiratory symptoms and poor exercise tolerance."
+      }
+    ]
+  },
+  {
+    "No": 2,
+    "Parameter": "Resting ECG",
+    "Results": [
+      { "Result": "Normal.", "Potential Issues": "", "TAoC Follow-up": "" },
+      { "Result": "Non-Specific Changes", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "RBBB", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "1st Degree Heart Block", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "Non-Specific Abnormalities", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "Abnormal", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" }
+    ]
+  },
+  {
+    "No": 2,
+    "Parameter": "Stress ECG",
+    "Results": [
+      { "Result": "Normal", "Potential Issues": "", "TAoC Follow-up": "" },
+      { "Result": "Positive", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "Abnormal", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "Indeterminate", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "Borderline", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "Inconclusive", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "Exercise Hypertension", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" },
+      { "Result": "Equivocal", "Potential Issues": "Cardiac", "TAoC Follow-up": "Refer to ECG tab" }
+    ]
+  },
+  {
+    "No": 4,
+    "Parameter": "Audiometry",
+    "Results": [
+      {
+        "Result": "Normal",
+        "Potential Issues": "",
+        "TAoC Follow-up": ""
+      },
+      {
+        "Result": "High Frequency Hearing Loss",
+        "Potential Issues": "Hearing",
+        "TAoC Follow-up": "Your audiogram shows high frequency hearing loss, which is usually associated with ageing and prolonged exposure to loud sounds. This is also seen in people with diabetes. Annual audiograms are recommended. Please consult our doctor for further medical advice if you experience perceived hearing loss, tinnitus, ear pain, or any other ear-related symptoms."
+      },
+      {
+        "Result": "Bilateral Hearing Loss",
+        "Potential Issues": "Hearing",
+        "TAoC Follow-up": "Your audiogram shows bilateral hearing loss, which is usually associated with ageing and prolonged exposure to loud sounds. Annual audiograms are recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "Result": "Unilateral hearing loss",
+        "Potential Issues": "Hearing",
+        "TAoC Follow-up": "Your audiogram shows unilateral hearing loss, which is usually associated with ageing and prolonged exposure to loud sounds. Annual audiograms are recommended. Please consult our doctor for further medical advice."
+      },
+      {
+        "Result": "Conducive Hearing Loss",
+        "Potential Issues": "Hearing",
+        "TAoC Follow-up": "Your audiogram shows conducive hearing loss, which is usually associated with ageing and prolonged exposure to loud sounds. Annual audiograms are recommended. Please consult our doctor for further medical advice."
+      }
+    ]
+  },
+  {
+    "No": 5,
+    "Parameter": "Digital Brain Function Screen Overall Score",
+    "Results": [
+      {
+        "Result": "Low rank",
+        "Potential Issues": "Brain",
+        "TAoC Follow-up": "[Conclusion from investigation tab]"
+      },
+      {
+        "Result": "Average rank",
+        "Potential Issues": "Brain",
+        "TAoC Follow-up": "[Conclusion from investigation tab]"
+      },
+      {
+        "Result": "High rank",
+        "Potential Issues": "Brain",
+        "TAoC Follow-up": "[Conclusion from investigation tab]"
+      }
+    ]
+  }
+]
+}

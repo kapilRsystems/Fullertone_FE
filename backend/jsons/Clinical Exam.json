@@ -1,0 +1,773 @@
+{
+  "physical_measurements": [
+    {
+      "parameter_number": 1,
+      "parameter_name": "BMI",
+      "ethnicity_specific": true,
+      "asian_ranges": {
+        "ethnicity": "Asian (Chinese / Indian / Malay)",
+        "ranges": [
+          {
+            "cutoff": "< 18.5",
+            "units": "kg/m^2",
+            "result": "Underweight",
+            "recommendation": "Your BMI of VAR:BMI places you in the underweight range. Your target weight is more than VAR:Limit (target bmi 18.5 kg/m2). Regular exercise for muscle toning and a sensible diet are important for cardiovascular health and weight maintenance. It is recommended that you increase your intake of calcium-rich foods such as dairy products and green leafy vegetables to protect against future osteoporosis. Please consult our doctor for advice on weight management."
+          },
+          {
+            "cutoff": "18.5 - 22.9",
+            "units": "kg/m^2",
+            "result": "Normal"
+          },
+          {
+            "cutoff": "23.0 - 27.4",
+            "units": "kg/m^2",
+            "result": "Overweight",
+            "recommendation": "Your BMI of VAR:BMI places you in the overweight range. Your target weight is less than VAR:Limit (target bmi < 23 kg/m2). Weight loss should be done in a gradual manner, preferably 1 kg per week. Please consult our doctor for advice on weight management."
+          },
+          {
+            "cutoff": "> 27.4",
+            "units": "kg/m^2",
+            "result": "Obese",
+            "recommendation": "Your BMI of VAR:BMI places you in the obese range. Your target weight is less than VAR:Limit (target bmi < 23 kg/m2). This increases your risk of developing conditions such as type 2 diabetes, heart disease, stroke, hypertension, asthma, obstructive sleep apnea, arthritis and colon cancer. A stepwise approach is to aim to lose 5% to 10% of your current weight in the first instance. A low cholesterol and low carbohydrate diet, together with regular exercise can help you achieve this. Please consult our doctor for advice on weight management."
+          }
+        ]
+      },
+      "caucasian_ranges": {
+        "ethnicity": "Caucasian / Others",
+        "ranges": [
+          {
+            "cutoff": "< 18.5",
+            "units": "kg/m^2",
+            "result": "Underweight",
+            "recommendation": "Your BMI of VAR:BMI places you in the underweight range. Your target weight is more than VAR:Limit (target bmi 18.5 kg/m2). Regular exercise for muscle toning and a sensible diet are important for cardiovascular health and weight maintenance. It is recommended that you increase your intake of calcium-rich foods such as dairy products and green leafy vegetables to protect against future osteoporosis. Please consult our doctor for advice on weight management."
+          },
+          {
+            "cutoff": "18.5 - 24.9",
+            "units": "kg/m^2",
+            "result": "Normal"
+          },
+          {
+            "cutoff": "25.0 - 29.9",
+            "units": "kg/m^2",
+            "result": "Overweight",
+            "recommendation": "Your BMI of VAR:BMI places you in the overweight range. Your target weight is less than VAR:Limit (target bmi < 25 kg/m2). Weight loss should be done in a gradual manner, preferably 1 kg per week. Please consult our doctor for advice on weight management."
+          },
+          {
+            "cutoff": "> 29.9",
+            "units": "kg/m^2",
+            "result": "Obese",
+            "recommendation": "Your BMI of VAR:BMI places you in the obese range. Your target weight is less than VAR:Limit (target bmi < 25 kg/m2). This increases your risk of developing conditions such as type 2 diabetes, heart disease, stroke, hypertension, asthma, obstructive sleep apnea, arthritis and colon cancer. A stepwise approach is to aim to lose 5% to 10% of your current weight in the first instance. A low cholesterol and low carbohydrate diet, together with regular exercise can help you achieve this. Please consult our doctor for advice on weight management."
+          }
+        ]
+      }
+    },
+    {
+      "parameter_number": 2,
+      "parameter_name": "Body Fat Percentage",
+      "gender_specific": true,
+      "male_age_ranges": [
+        {
+          "age_group": "<18 y.o.",
+          "ranges": [
+            {
+              "cutoff": "<8",
+              "units": "%",
+              "result": "Low"
+            },
+            {
+              "cutoff": "8-20",
+              "units": "%",
+              "result": "Acceptable"
+            },
+            {
+              "cutoff": ">20",
+              "units": "%",
+              "result": "High"
+            }
+          ]
+        },
+        {
+          "age_group": "18 - 39",
+          "ranges": [
+            {
+              "cutoff": "<8",
+              "units": "%",
+              "result": "Fit",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": "8-20",
+              "units": "%",
+              "result": "Acceptable",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": ">20",
+              "units": "%",
+              "result": "Obese",
+              "recommendation": "Your body fat percentage places you in the obese range. Your target body fat percentage is between 8-20%. Diet modification, together with regular exercise can help you achieve this. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "age_group": "40-59 y.o.",
+          "ranges": [
+            {
+              "cutoff": "<11",
+              "units": "%",
+              "result": "Fit",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": "11-22",
+              "units": "%",
+              "result": "Acceptable",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": ">22",
+              "units": "%",
+              "result": "Obese",
+              "recommendation": "Your body fat percentage places you in the obese range. Your target body fat percentage is between 11-22%. Diet modification, together with regular exercise can help you achieve this. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "age_group": ">59 y.o",
+          "ranges": [
+            {
+              "cutoff": "<13",
+              "units": "%",
+              "result": "Fit",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": "13-25",
+              "units": "%",
+              "result": "Acceptable",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": ">25",
+              "units": "%",
+              "result": "Obese",
+              "recommendation": "Your body fat percentage places you in the obese range. Your target body fat percentage is between 13-25%. Diet modification, together with regular exercise can help you achieve this. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      ],
+      "female_age_ranges": [
+        {
+          "age_group": "18-39 y.o.",
+          "ranges": [
+            {
+              "cutoff": "<22",
+              "units": "%",
+              "result": "Fit",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": "22-33",
+              "units": "%",
+              "result": "Acceptable",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": ">33",
+              "units": "%",
+              "result": "Obese",
+              "recommendation": "Your body fat percentage places you in the obese range. Your target body fat percentage is between 22-33%. Diet modification, together with regular exercise can help you achieve this. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "age_group": "40-59 y.o.",
+          "ranges": [
+            {
+              "cutoff": "<24",
+              "units": "%",
+              "result": "Fit",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": "24-34",
+              "units": "%",
+              "result": "Acceptable",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": ">34",
+              "units": "%",
+              "result": "Obese",
+              "recommendation": "Your body fat percentage places you in the obese range. Your target body fat percentage is between 24-34%. Diet modification, together with regular exercise can help you achieve this. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "age_group": ">59 y.o",
+          "ranges": [
+            {
+              "cutoff": "<25",
+              "units": "%",
+              "result": "Fit",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": "25-36",
+              "units": "%",
+              "result": "Acceptable",
+              "recommendation": "Diet management, together with regular exercise, can help you maintain your body fat percentage."
+            },
+            {
+              "cutoff": ">36",
+              "units": "%",
+              "result": "Obese",
+              "recommendation": "Your body fat percentage places you in the obese range. Your target body fat percentage is between 25-36%. Diet modification, together with regular exercise can help you achieve this. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameter_number": 5,
+      "parameter_name": "Systolic Blood Pressure",
+      "hypertension_status_specific": true,
+      "no_prediagnosed_ht": {
+        "ranges": [
+          {
+            "cutoff": "<130",
+            "units": "mmHg",
+            "result": "Normal"
+          },
+          {
+            "cutoff": "130 - 139",
+            "units": "mmHg",
+            "result": "Borderline",
+            "recommendation": "Your blood pressure is acceptable but borderline high. A low salt diet and regular exercise can help lower it. Blood pressure is directly linked to age, weight, and diet. You are advised to monitor your blood pressure closely with a doctor. If it is persistently higher than 130/85 mmHg, medication may be required. Please consult our doctor for further medical advice."
+          },
+          {
+            "cutoff": "> 139",
+            "units": "mmHg",
+            "result": "High",
+            "recommendation": "Your blood pressure is high. A low salt diet and regular exercise can help lower it. Blood pressure is directly linked to age, weight, and diet. Complications of hypertension such as stroke or heart attacks increase exponentially past 140/90 mmHg. Medication is likely necessary to manage your blood pressure. Please consult our doctor for further medical advice."
+          }
+        ]
+      },
+      "prediagnosed_ht_treated": {
+        "ranges": [
+          {
+            "cutoff": "<130",
+            "units": "mmHg",
+            "result": "Normal"
+          },
+          {
+            "cutoff": "130 - 139",
+            "units": "mmHg",
+            "result": "Borderline",
+            "recommendation": "Your blood pressure is acceptable but borderline high. A low salt diet and regular exercise can help lower it. Blood pressure is directly linked to age, weight, and diet. You are advised to monitor your blood pressure closely with a doctor. If it is persistently higher than 130/85 mmHg, medication may be required. Please consult our doctor for further medical advice."
+          },
+          {
+            "cutoff": "> 139",
+            "units": "mmHg",
+            "result": "High",
+            "recommendation": "Your blood pressure is high. A low salt diet and regular exercise can help lower it. Blood pressure is directly linked to age, weight, and diet. Complications of hypertension such as stroke or heart attacks increase exponentially past 140/90 mmHg. Medication is likely necessary to manage your blood pressure. Please consult our doctor for further medical advice."
+          }
+        ]
+      }
+    },
+    {
+      "parameter_number": 6,
+      "parameter_name": "Diastolic Blood Pressure",
+      "hypertension_status_specific": true,
+      "no_prediagnosed_ht": {
+        "ranges": [
+          {
+            "cutoff": "< 85",
+            "units": "mmHg",
+            "result": "Normal"
+          },
+          {
+            "cutoff": "85 - 89",
+            "units": "mmHg",
+            "result": "Borderline",
+            "recommendation": "Your blood pressure is acceptable but borderline high. A low salt diet and regular exercise can help lower it. Blood pressure is directly linked to age, weight, and diet. You are advised to monitor your blood pressure closely with a doctor. If it is persistently higher than 130/85 mmHg, medication may be required. Please consult our doctor for further medical advice."
+          },
+          {
+            "cutoff": "> 89",
+            "units": "mmHg",
+            "result": "High",
+            "recommendation": "Your blood pressure is high. A low salt diet and regular exercise can help lower it. Blood pressure is directly linked to age, weight, and diet. Complications of hypertension such as stroke or heart attacks increase exponentially past 140/90 mmHg. Medication is likely necessary to manage your blood pressure. Please consult our doctor for further medical advice."
+          }
+        ]
+      },
+      "prediagnosed_ht": {
+        "ranges": [
+          {
+            "cutoff": "< 85",
+            "units": "mmHg",
+            "result": "Normal"
+          },
+          {
+            "cutoff": "85 - 89",
+            "units": "mmHg",
+            "result": "Borderline",
+            "recommendation": "Your blood pressure is acceptable but borderline high. A low salt diet and regular exercise can help lower it. Blood pressure is directly linked to age, weight, and diet. You are advised to monitor your blood pressure closely with a doctor. If it is persistently higher than 130/85 mmHg, medication may be required. Please consult our doctor for further medical advice."
+          },
+          {
+            "cutoff": "> 89",
+            "units": "mmHg",
+            "result": "High",
+            "recommendation": "Your blood pressure is high. A low salt diet and regular exercise can help lower it. Blood pressure is directly linked to age, weight, and diet. Complications of hypertension such as stroke or heart attacks increase exponentially past 140/90 mmHg. Medication is likely necessary to manage your blood pressure. Please consult our doctor for further medical advice."
+          }
+        ]
+      }
+    },
+    {
+      "parameter_number": 7,
+      "parameter_name": "Heart Rate (Pulse)",
+      "gender_specific": false,
+      "ranges": [
+        {
+          "cutoff": "< 60",
+          "units": "beat per minute (bpm)",
+          "result": "Low",
+          "recommendation": "Your resting heart rate is below 60 beats per minute. A trained athlete usually has lower heart rate. However, if you have other signs or symptoms such as fainting, dizziness, or shortness of breath, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "60 - 100",
+          "units": "beat per minute (bpm)",
+          "result": "Normal"
+        },
+        {
+          "cutoff": "> 100",
+          "units": "beat per minute (bpm)",
+          "result": "High",
+          "recommendation": "Your resting heart rate is above normal limits. You may have white coat hypertension. It is recommended that you monitor your heart rate at home. If your heart rate is persistently higher than 100 bpm, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter_number": 8,
+      "parameter_name": "Waist Circumference",
+      "ethnicity_and_gender_specific": true,
+      "asian_male": {
+        "ethnicity": "Asian, Chinese, Indian, Malay",
+        "gender": "Male",
+        "ranges": [
+          {
+            "cutoff": "<90",
+            "units": "cm",
+            "result": "Normal"
+          },
+          {
+            "cutoff": ">=90",
+            "units": "cm",
+            "result": "Obese",
+            "recommendation": "Your waist circumference of VAR cm places you in the obese range. Your target waist circumference is less than VAR:Target cm."
+          }
+        ]
+      },
+      "asian_female": {
+        "ethnicity": "Asian, Chinese, Indian, Malay",
+        "gender": "Female",
+        "ranges": [
+          {
+            "cutoff": "<80",
+            "units": "cm",
+            "result": "Normal"
+          },
+          {
+            "cutoff": ">=80",
+            "units": "cm",
+            "result": "Obese",
+            "recommendation": "Your waist circumference of VAR cm places you in the obese range. Your target waist circumference is less than VAR:Target cm."
+          }
+        ]
+      },
+      "caucasian_male": {
+        "ethnicity": "Caucasian, Others",
+        "gender": "Male",
+        "ranges": [
+          {
+            "cutoff": "<102",
+            "units": "cm",
+            "result": "Normal"
+          },
+          {
+            "cutoff": ">=102",
+            "units": "cm",
+            "result": "Obese",
+            "recommendation": "Your waist circumference of VAR cm places you in the obese range. Your target waist circumference is less than VAR:Target cm."
+          }
+        ]
+      },
+      "caucasian_female": {
+        "ethnicity": "Caucasian, Others",
+        "gender": "Female",
+        "ranges": [
+          {
+            "cutoff": "<88",
+            "units": "cm",
+            "result": "Normal"
+          },
+          {
+            "cutoff": ">=88",
+            "units": "cm",
+            "result": "Obese",
+            "recommendation": "Your waist circumference of VAR cm places you in the obese range. Your target waist circumference is less than VAR:Target cm."
+          }
+        ]
+      }
+    },
+    {
+      "parameter_number": 9,
+      "parameter_name": "Body Water",
+      "gender_specific": true,
+      "male_ranges": {
+        "age_group": ">=18 y.o",
+        "ranges": [
+          {
+            "cutoff": "< 50",
+            "units": "%",
+            "result": "Low",
+            "recommendation": "Your body water percentage places you in the abnormal range. Your target body water percentage based on your age group is between 50-65%. Your body water levels fluctuate throughout the day and night. Eating large meals, drinking alcohol, illness and exercising may cause variations in your hydration levels. Maintaining a healthy body water will ensure balanced body functions and reduce the risk of developing health problems. Please consult our doctor for further medical advice."
+          },
+          {
+            "cutoff": "50-65",
+            "units": "%",
+            "result": "Normal"
+          },
+          {
+            "cutoff": "> 65",
+            "units": "%",
+            "result": "High",
+            "recommendation": "Your body water percentage places you in the abnormal range. Your target body water percentage based on your age group is between 50-65%. Your body water levels fluctuate throughout the day and night. Eating large meals, drinking alcohol, illness and exercising may cause variations in your hydration levels. Maintaining a healthy body water will ensure balanced body functions and reduce the risk of developing health problems. Please consult our doctor for further medical advice."
+          }
+        ]
+      },
+      "female_ranges": {
+        "age_group": ">=18 y.o.",
+        "ranges": [
+          {
+            "cutoff": "< 45",
+            "units": "%",
+            "result": "Low",
+            "recommendation": "Your body water percentage places you in the abnormal range. Your target body water percentage based on your age group is between 45-60%. Your body water levels fluctuate throughout the day and night. Eating large meals, drinking alcohol, menstruation, illness and exercising may cause variations in your hydration levels. Maintaining a healthy body water will ensure balanced body functions and reduce the risk of developing health problems. Please consult our doctor for further medical advice."
+          },
+          {
+            "cutoff": "45-60",
+            "units": "%",
+            "result": "Normal"
+          },
+          {
+            "cutoff": "> 60",
+            "units": "%",
+            "result": "High",
+            "recommendation": "Your body water percentage places you in the abnormal range. Your target body water percentage based on your age group is between 45-60%. Your body water levels fluctuate throughout the day and night. Eating large meals, drinking alcohol, menstruation, illness and exercising may cause variations in your hydration levels. Maintaining a healthy body water will ensure balanced body functions and reduce the risk of developing health problems. Please consult our doctor for further medical advice."
+          }
+        ]
+      }
+    },
+    {
+      "parameter_number": 10,
+      "parameter_name": "Muscle",
+      "gender_specific": true,
+      "male_age_ranges": [
+        {
+          "age_group": "18-39 y.o.",
+          "ranges": [
+            {
+              "cutoff": "< 42",
+              "units": "%",
+              "result": "Low",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 42-54%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": "42-54",
+              "units": "%",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 54",
+              "units": "%",
+              "result": "High",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 42-54%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "age_group": "40-59 y.o.",
+          "ranges": [
+            {
+              "cutoff": "< 38",
+              "units": "%",
+              "result": "Low",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 38-50%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": "38-50",
+              "units": "%",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 50",
+              "units": "%",
+              "result": "High",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 38-50%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "age_group": ">59 y.o",
+          "ranges": [
+            {
+              "cutoff": "< 35",
+              "units": "%",
+              "result": "Low",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 35-45%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": "35-45",
+              "units": "%",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 45",
+              "units": "%",
+              "result": "High",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 35-45%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      ],
+      "female_age_ranges": [
+        {
+          "age_group": "18-39 y.o.",
+          "ranges": [
+            {
+              "cutoff": "< 33",
+              "units": "%",
+              "result": "Low",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 33-43%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": "33-43",
+              "units": "%",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 43",
+              "units": "%",
+              "result": "High",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 33-43%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "age_group": "40-59 y.o.",
+          "ranges": [
+            {
+              "cutoff": "< 30",
+              "units": "%",
+              "result": "Low",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 30-40%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": "30-40",
+              "units": "%",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 40",
+              "units": "%",
+              "result": "High",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 30-40%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        {
+          "age_group": ">59 y.o",
+          "ranges": [
+            {
+              "cutoff": "< 28",
+              "units": "%",
+              "result": "Low",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 28-38%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": "28-38",
+              "units": "%",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 38",
+              "units": "%",
+              "result": "High",
+              "recommendation": "Your muscle percentage places you in the abnormal range. Your target muscle percentage based on your age group is between 28-38%. Muscles play an important role to act as an engine in consuming energy. As your muscle mass increases, your energy consumption increases. This will help you to reduce excess body fat and lose weight in a healthy way. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameter_number": 11,
+      "parameter_name": "Bone Mass",
+      "gender_specific": true,
+      "male_age_ranges": [
+        {
+          "age_group": "18-39 y.o.",
+          "ranges": [
+            {
+              "cutoff": "< 3.0",
+              "units": "kg",
+              "result": "Low",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 3.0-4.0kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            },
+            {
+              "cutoff": "3.0 - 4.0",
+              "units": "kg",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 4.0",
+              "units": "kg",
+              "result": "High",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 3.0-4.0kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            }
+          ]
+        },
+        {
+          "age_group": "40-59 y.o.",
+          "ranges": [
+            {
+              "cutoff": "< 2.9",
+              "units": "kg",
+              "result": "Low",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.9-3.8kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            },
+            {
+              "cutoff": "2.9 - 3.8",
+              "units": "kg",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 3.8",
+              "units": "kg",
+              "result": "High",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.9-3.8kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            }
+          ]
+        },
+        {
+          "age_group": ">59 y.o",
+          "ranges": [
+            {
+              "cutoff": "< 2.7",
+              "units": "kg",
+              "result": "Low",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.7-3.7kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            },
+            {
+              "cutoff": "2.7 - 3.7",
+              "units": "kg",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 3.7",
+              "units": "kg",
+              "result": "High",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.7-3.7kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            }
+          ]
+        }
+      ],
+      "female_age_ranges": [
+        {
+          "age_group": "18-39 y.o.",
+          "ranges": [
+            {
+              "cutoff": "< 2.5",
+              "units": "kg",
+              "result": "Low",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.5-3.8kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            },
+            {
+              "cutoff": "2.5-3.8",
+              "units": "kg",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 3.8",
+              "units": "kg",
+              "result": "High",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.5-3.8kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            }
+          ]
+        },
+        {
+          "age_group": "40-59 y.o.",
+          "ranges": [
+            {
+              "cutoff": "< 2.4",
+              "units": "kg",
+              "result": "Low",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.4-3.7kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            },
+            {
+              "cutoff": "2.4-3.7",
+              "units": "kg",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 3.7",
+              "units": "kg",
+              "result": "High",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.4-3.7kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            }
+          ]
+        },
+        {
+          "age_group": ">59 y.o",
+          "ranges": [
+            {
+              "cutoff": "< 2.3",
+              "units": "kg",
+              "result": "Low",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.3-3.5kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            },
+            {
+              "cutoff": "2.3-3.5",
+              "units": "kg",
+              "result": "Normal"
+            },
+            {
+              "cutoff": "> 3.5",
+              "units": "kg",
+              "result": "High",
+              "recommendation": "Your bone mass weight places you in the abnormal range. Your target bone mass weight based on your age group is between 2.3-3.5kg. Your bone mass indicates the amount of bone minerals (bone mineral level, calcium or other minerals) in the body. It is important to have a balanced diet and regular exercise to maintain a good bone health. Please consult our doctor for further medical advice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "parameter_number": 12,
+      "parameter_name": "Visceral Fat Index",
+      "gender_specific": false,
+      "age_group": ">=18 y.o.",
+      "ranges": [
+        {
+          "cutoff": "1 - 12",
+          "units": "",
+          "result": "Normal"
+        },
+        {
+          "cutoff": ">12",
+          "units": "",
+          "result": "High",
+          "recommendation": "Your visceral fats percentage places you in the abnormal range. Your visceral fats percentage based on your age group is between 1-12. Visceral fats is the fat around internal abdominal cavity, surrounding the vital organs in the body. A healthy level of visceral fat may reduce the risk of chronic diseases such as heart disease, high blood pressure, and type 2 diabetes. Please consult our doctor for further medical advice."
+        }
+      ]
+    }
+  ]
+}

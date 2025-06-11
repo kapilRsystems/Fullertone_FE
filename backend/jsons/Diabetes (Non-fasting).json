@@ -1,0 +1,41 @@
+{
+  "Diabetese_non_fasting": {
+    "test": "Random Blood Glucose",
+    "categories": [
+      {
+        "type": "Non-Diabetic",
+        "results": [
+          {
+            "range": "70 - 198",
+            "unit": "mg/dL",
+            "level": "Normal",
+            "remark": ""
+          },
+          {
+            "range": "> 198",
+            "unit": "mg/dL",
+            "level": "High",
+            "remark": "Your random blood glucose level is raised. A fasting blood glucose test is recommended. Please consult our doctor for further medical advice."
+          }
+        ]
+      },
+      {
+        "type": "Diabetic",
+        "results": [
+          {
+            "range": "70 - 198",
+            "unit": "mg/dL",
+            "level": "Normal",
+            "remark": ""
+          },
+          {
+            "range": "> 198",
+            "unit": "mg/dL",
+            "level": "High",
+            "remark": "Your random blood glucose level is high. This suggests the possibility of sub-optimally controlled diabetes. A review of your current treatment is recommended. Dietary changes and regular exercise can help improve your blood glucose level. Please consult our doctor for further medical advice."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,334 @@
+{
+    "ECG" : [
+    {
+        "No": "1",
+        "Resting ECG": "Normal",
+        "stress ECG (Treadmill)": "Normal",
+        "Follow-up": "No follow-up required."
+    },
+    {
+        "No": "2",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Exercise Hypertension",
+        "Follow-up": "Your stress ECG (Treadmill) does not suggest underlying coronary heart disease. However, your blood pressure was noted to be high (exercise hypertension) during the test. Some studies have shown that exercise hypertension may predict future arterial hypertension in individuals with normal resting blood pressure. It is recommended that you have your blood pressure checked every 6 monthly. A low sodium, high potassium diet, regular exercise and optimal weight maintenance helps improve blood pressure."
+    },
+    {
+        "No": "3",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Equivocal",
+        "Follow-up": "Your stress ECG (Treadmill) is equivocal for myocardial ischemia. Further tests such as Stress Echocardiogram, perfusion scans or CT angiogram are recommended to rule out myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "4",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": " Borderline",
+        "Follow-up": "Your stress ECG (Treadmill) is borderline positive. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "5",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Indeterminate",
+        "Follow-up": "Your stress ECG (Treadmill) is indeterminate due to significant motion artifact. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "6",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Inconclusive",
+        "Follow-up": "Your stress ECG (Treadmill) is inconclusive. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "7",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Positive",
+        "Follow-up": "Your stress ECG (Treadmill) is positive for myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "8",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Abnormal",
+        "Follow-up": "Your stress ECG (Treadmill) is abnormal. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "9",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "NA",
+        "Follow-up": "No follow up required"
+    },
+    {
+        "No": "10",
+        "Resting ECG": "Non-Specific Changes",
+        "stress ECG (Treadmill)": "Normal",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities, but your subsequent stress ECG (Treadmill) is negative for myocardial ischemia and underlying coronary heart disease. It is likely that the abnormalities are not clinically significant. Please note that the stress ECG test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. It is recommended that you consult our doctor for further evaluation if you have exertional chest pain, breathlessness, palpitations or fatigue."
+    },
+    {
+        "No": "11",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Exercise Hypertension",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities, but your subsequent stress ECG (Treadmill) does not suggest underlying coronary heart disease. However, your blood pressure was noted to be high (exercise hypertension) during the test. Some studies have shown that exercise hypertension may predict future arterial hypertension in individuals with normal resting blood pressure. It is recommended that you have your blood pressure checked every 6 monthly. A low sodium, high potassium diet, regular exercise and optimal weight maintenance helps improve blood pressure. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "12",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Equivocal",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is equivocal for myocardial ischemia. Further tests such as Stress Echocardiogram, perfusion scans or CT angiogram are recommended to rule out myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "13",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Borderline",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is borderline positive. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "14",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Indeterminate",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is indeterminate due to significant motion artifact. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "15",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Inconclusive",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is inconclusive. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "16",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Positive",
+        "Follow-up": "Your stress ECG (Treadmill) is positive for myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "17",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Abnormal",
+        "Follow-up": "Your stress ECG (Treadmill) is abnormal. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "18",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "NA",
+        "Follow-up": "Your resting electrocardiogram (ECG) showed some non-specific changes. A stress ECG (Treadmill) can be done to screen for underlying coronary heart disease, especially if you experience recurrent chest pain, breathlessness or palpitations on exertion/exercise. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "19",
+        "Resting ECG": "RBBB",
+        "stress ECG (Treadmill)": "Normal",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a right bundle branch block, but your subsequent stress ECG (Treadmill) was negative for myocardial ischemia and underlying coronary heart disease. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "20",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Exercise Hypertension",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a right bundle branch block, but your subsequent stress ECG (Treadmill) does not suggest underlying coronary heart disease. However, your blood pressure was noted to be high (exercise hypertension) during the test. Some studies have shown that exercise hypertension may predict future arterial hypertension in individuals with normal resting blood pressure. It is recommended that you have your blood pressure checked every 6 monthly. A low sodium, high potassium diet, regular exercise and optimal weight maintenance helps improve blood pressure. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "21",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Equivocal",
+        "Follow-up": "Your stress ECG (Treadmill) is equivocal for myocardial ischemia and your resting electrocardiogram (ECG) shows a right bundle branch block. Further tests such as Stress Echocardiogram, perfusion scans or CT angiogram are recommended to rule out myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "22",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Borderline",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a right bundle branch block and your stress ECG (Treadmill) is borderline positive. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "23",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Indeterminate",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a right bundle branch block and your stress ECG (Treadmill) is indeterminate due to significant motion artifact. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "24",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Inconclusive",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a right bundle branch block and your stress ECG (Treadmill) is inconclusive. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "25",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Positive",
+        "Follow-up": "Your stress ECG (Treadmill) is positive for myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "26",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Abnormal",
+        "Follow-up": "Your stress ECG (Treadmill) is abnormal. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "27",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "NA",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a right bundle branch block. A Stress Echocardiogram can be done to screen for underlying coronary heart disease, especially if you experience recurrent chest pain, breathlessness, palpitations on exertion / exercise, or skipped heartbeat. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "28",
+        "Resting ECG": "1st degree heart block",
+        "stress ECG (Treadmill)": "Normal",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities, but your subsequent stress ECG (Treadmill) is negative for myocardial ischemia and underlying coronary heart disease. It is likely that the abnormalities are not clinically significant. Please note that the stress ECG test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. It is recommended that you consult our doctor for further evaluation if you have exertional chest pain, breathlessness, palpitations or fatigue."
+    },
+    {
+        "No": "29",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Exercise Hypertension",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a first degree heart block, but your subsequent stress ECG (Treadmill) does not suggest underlying coronary heart disease. However, your blood pressure was noted to be high (exercise hypertension) during the test. Some studies have shown that exercise hypertension may predict future arterial hypertension in individuals with normal resting blood pressure. It is recommended that you have your blood p+C24+C27"
+    },
+    {
+        "No": "30",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Equivocal",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a first degree heart block and your stress ECG (Treadmill) is equivocal for myocardial ischemia. Further tests such as Stress Echocardiogram, perfusion scans or CT angiogram are recommended to rule out myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "31",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Borderline",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a first degree heart block and your stress ECG (Treadmill) is borderline positive. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "32",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Indeterminate",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a first degree heart block and your stress ECG (Treadmill) is indeterminate due to significant motion artifact. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "33",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Inconclusive",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a first degree heart block and your stress ECG (Treadmill) is inconclusive. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "34",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Positive",
+        "Follow-up": "Your stress ECG (Treadmill) is positive for myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "35",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Abnormal",
+        "Follow-up": "Your stress ECG (Treadmill) is abnormal. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "36",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "NA",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows a first degree heart block. A Stress Echocardiogram can be done to screen for underlying coronary heart disease, especially if you experience recurrent chest pain, breathlessness, palpitations on exertion / exercise, or skipped heartbeat. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "37",
+        "Resting ECG": "Non-specific abnormalities",
+        "stress ECG (Treadmill)": "Normal",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities, but your subsequent stress ECG (Treadmill) is negative for myocardial ischemia and underlying coronary heart disease. It is likely that the abnormalities are not clinically significant. Please note that the stress ECG test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. It is recommended that you consult our doctor for further evaluation if you have exertional chest pain, breathlessness, palpitations or fatigue."
+    },
+    {
+        "No": "38",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Exercise Hypertension",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities, but your subsequent stress ECG (Treadmill) does not suggest underlying coronary heart disease. However, your blood pressure was noted to be high (exercise hypertension) during the test. Some studies have shown that exercise hypertension may predict future arterial hypertension in individuals with normal resting blood pressure. It is recommended that you have your blood pressure checked every 6 monthly. A low sodium, high potassium diet, regular exercise and optimal weight maintenance helps improve blood pressure. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "39",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Equivocal",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is equivocal for myocardial ischemia. Further tests such as Stress Echocardiogram, perfusion scans or CT angiogram are recommended to rule out myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "40",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Borderline",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is borderline positive. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "41",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Indeterminate",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is indeterminate due to significant motion artifact. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "42",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Inconclusive",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is inconclusive. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "43",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Positive",
+        "Follow-up": "Your stress ECG (Treadmill) is positive for myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "44",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Abnormal",
+        "Follow-up": "Your stress ECG (Treadmill) is abnormal. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "45",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "NA",
+        "Follow-up": "Your resting electrocardiogram (ECG) showed some non-specific abnormalities. A stress ECG (Treadmill) can be done to screen for underlying coronary heart disease, especially if you experience recurrent chest pain, breathlessness or palpitations on exertion/exercise. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "46",
+        "Resting ECG": "Borderline",
+        "stress ECG (Treadmill)": "NA",
+        "Follow-up": "Your resting electrocardiogram (ECG) is borderline. A stress ECG (Treadmill) can be done to screen for underlying coronary heart disease, especially if you experience recurrent chest pain, breathlessness, or palpitations on exertion / exercise. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "47",
+        "Resting ECG": "Abnormal",
+        "stress ECG (Treadmill)": "Normal",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities, but your subsequent stress ECG (Treadmill) is negative for myocardial ischemia and underlying coronary heart disease. It is likely that the abnormalities are not clinically significant. Please note that the stress ECG test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. It is recommended that you consult our doctor for further evaluation if you have exertional chest pain, breathlessness, palpitations or fatigue."
+    },
+    {
+        "No": "48",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Exercise Hypertension",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities, but your subsequent stress ECG (Treadmill) does not suggest underlying coronary heart disease. However, your blood pressure was noted to be high (exercise hypertension) during the test. Some studies have shown that exercise hypertension may predict future arterial hypertension in individuals with normal resting blood pressure. It is recommended that you have your blood pressure checked every 6 monthly. A low sodium, high potassium diet, regular exercise and optimal weight maintenance helps improve blood pressure. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "49",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Equivocal",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is equivocal for myocardial ischemia. Further tests such as Stress Echocardiogram, perfusion scans or CT angiogram are recommended to rule out myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "50",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": " Borderline",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is borderline positive. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "51",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Indeterminate",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is indeterminate due to significant motion artifact. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. A repeat treadmill test may be required, or further assessment by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "52",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Inconclusive",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities and your stress ECG (Treadmill) is inconclusive. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "53",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Positive",
+        "Follow-up": "Your stress ECG (Treadmill) is positive for myocardial ischemia. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "54",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "Abnormal",
+        "Follow-up": "Your stress ECG (Treadmill) is abnormal. Please note that the treadmill test has 70\\\\% sensitivity when employed as a screening tool for coronary heart disease, 30\\\\% of cases have false positive or false negative outcomes. This is inherent in this test. Abnormal test results can be further evaluated by a cardiologist with cardiac stress echocardiograms, perfusion scans or CT angiogram. Please consult our doctor for further medical advice."
+    },
+    {
+        "No": "55",
+        "Resting ECG": "",
+        "stress ECG (Treadmill)": "NA",
+        "Follow-up": "Your resting electrocardiogram (ECG) shows some abnormalities. A stress ECG (Treadmill) can be done to screen for underlying coronary heart disease, especially if you experience recurrent chest pain, breathlessness, or palpitations on exertion / exercise. Please consult our doctor for further medical advice."
+    }
+]
+}

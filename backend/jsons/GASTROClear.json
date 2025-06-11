@@ -1,0 +1,32 @@
+{
+  "parameter": "GASTROClear",
+  "riskLevels": [
+    {
+      "remark": "Low Risk",
+      "meshCutOff": "< 40",
+      "meshUnits": "Score",
+      "panelRepresentation": "Scale Bar (Shown)",
+      "krRepresentation": "GASTROClear Low Risk: 30 Score",
+      "meshFollowUp": "A GASTROClear risk score of less than 40 means that the likelihood of gastric cancer being present is not elevated, relative to the baseline population at this time of testing. (A low GASTROClear risk score does not definitively exclude the presence of gastric cancer.)",
+      "customerFollowUp": ""
+    },
+    {
+      "remark": "Intermediate Risk",
+      "meshCutOff": "40 - 50",
+      "meshUnits": "Score",
+      "panelRepresentation": "Scale Bar (shown)",
+      "krRepresentation": "GASTROClear Intermediate Risk: 45 Score",
+      "meshFollowUp": "A GASTROClear risk score of between 40 to 50 means that the likelihood of gastric cancer being present is slightly elevated, relative to the baseline population at this time of testing. You are recommended to consult your doctor for further medical evaluation and/or repeat testing.",
+      "customerFollowUp": ""
+    },
+    {
+      "remark": "High Risk",
+      "meshCutOff": "> 50",
+      "meshUnits": "Score",
+      "panelRepresentation": "Scale Bar (shown)",
+      "krRepresentation": "GASTROClear High Risk: 55 Score",
+      "meshFollowUp": "A GASTROClear risk score of more than 50 means that the likelihood of gastric cancer being present is elevated, relative to the baseline population at this time of testing. You are advised to consult a specialist for further evaluation.",
+      "customerFollowUp": ""
+    }
+  ]
+}

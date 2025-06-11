@@ -1,0 +1,237 @@
+{
+  "bone_joint_tests": [
+    {
+      "no": 1,
+      "parameter": "Calcium (2000-8 & 14879-1)",
+      "remarks": "Age",
+      "age_ranges": {
+        "[2, 12) years old": {
+          "Low": "< 8.8 mg/dL",
+          "Normal": "8.8 - 10.8 mg/dL",
+          "High": "> 10.8 mg/dL"
+        },
+        "[12, 18) years old": {
+          "Low": "<8.4 mg/dL",
+          "Normal": "8.4-10.2 mg/dL",
+          "High": ">10.2 mg/dL"
+        },
+        "[18, 60) years old": {
+          "Low": "<8.6 mg/dL",
+          "Normal": "8.6 - 10 mg/dL",
+          "High": "> 10 mg/dL"
+        },
+        "[60, 90) years old": {
+          "Low": "< 8.8 mg/dL",
+          "Normal": "8.8 - 10.2 mg/dL",
+          "High": "> 10.2 mg/dL"
+        },
+        ">=90 years old": {
+          "Low": "< 8.2 mg/dL",
+          "Normal": "8.2 - 9.6 mg/dL",
+          "High": "> 9.6 mg/dL"
+        }
+      },
+      "recommendations": {
+        "Low": "Check Phosphate levels",
+        "Normal": "Check Phosphate levels",
+        "High": "Check Phosphate levels"
+      }
+    },
+    {
+      "no": 2,
+      "parameter": "Phosphate",
+      "interpretations": [
+        {
+          "condition": "Calcium Low",
+          "results": {
+            "Low": {
+              "recommendation": "Your calcium and phosphate levels are low. This may indicate a parathyroid disorder. Please consult our doctor for further medical advice.",
+              "reference_ranges": {
+                "Male": {
+                  "7-9 years old": "2.95-5.43 mg/dL",
+                  "10-12 years old": "3.26-5.74 mg/dL",
+                  "13-15 years old": "2.95-5.12 mg/dL",
+                  "16-18 years old": "2.64-4.96 mg/dL"
+                },
+                "Female": {
+                  "7-9 years old": "3.1-5.58 mg/dL",
+                  "10-12 years old": "3.26-5.27 mg/dL",
+                  "13-15 years old": "2.95-4.81 mg/dL",
+                  "16-18 years old": "2.48-4.81 mg/dL"
+                }
+              }
+            },
+            "Normal": {
+              "recommendation": "Your calcium level is low but your phosphate level is normal. Calcium is essential for formation of bones and teeth. Low levels of calcium can lead to osteoporosis. You are recommended to consume more foods that are rich in calcium, such as milk and milk products, leafy greens, and beans. Please consult our doctor for further medical advice."
+            },
+            "High": {
+              "recommendation": "Your calcium level is low and your phosphate level is high. This may indicate a parathyroid disorder. Please consult our doctor for further medical advice."
+            }
+          }
+        },
+        {
+          "condition": "Calcium Normal",
+          "results": {
+            "Low": {
+              "recommendation": "Your calcium level is normal but your phosphate level is low. Decreased levels of phosphate may be caused by poor diet, alcoholism or vitamin D deficiency. You are recommended to consume more foods with higher phosphate content, such as meat, poultry, fish, nuts, beans, and dairy products. Please consult our doctor for further medical advice.",
+              "reference_ranges": {
+                "Male": {
+                  "7-9 years old": "< 2.95 mg/dL",
+                  "10-12 years old": "< 3.26 mg/dL",
+                  "13-<15 years old": "< 2.95 mg/dL",
+                  "15-<18 years old": "< 2.64 mg/dL",
+                  ">= 18 years old": "< 2.51 mg/dL"
+                },
+                "Female": {
+                  "7-9 years old": "< 3.1 mg/dL",
+                  "10-12 years old": "< 3.26 mg/dL",
+                  "13-<15 years old": "< 2.95 mg/dL",
+                  "15-<18 years old": "< 2.48 mg/dL",
+                  ">= 18 years old": "< 2.51 mg/dL"
+                }
+              }
+            },
+            "Normal": {
+              "recommendation": "Your bone & joint profile is normal."
+            },
+            "High": {
+              "recommendation": "Your calcium level is normal but your phosphate level is high. You are recommended to cut down on foods with higher phosphate content, such as meat, poultry, fish, nuts, beans, and dairy products. Please consult our doctor for further medical advice."
+            }
+          }
+        },
+        {
+          "condition": "Calcium High",
+          "results": {
+            "Low": {
+              "recommendation": "Your calcium level is high but your phosphate level is low. This may indicate a parathyroid disorder. Please consult our doctor for further medical advice."
+            },
+            "Normal": {
+              "recommendation": "Your calcium level is high but your phosphate level is normal. High levels of calcium are associated with bone disease and vitamin D intoxication. You are recommended to consume less foods that are rich in calcium, such as milk and milk products, leafy greens, and beans. Please consult our doctor for further medical advice."
+            },
+            "High": {
+              "recommendation": "Your calcium and phosphate levels are high. This may indicate primary hyperparathyroidism, osteoporosis and kidney disease. Please consult our doctor for further medical advice."
+            }
+          }
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "parameter": "Uric Acid (Male) (3084-1)",
+      "cutoffs": {
+        "Low": "< 3.70 mg/dL",
+        "Normal": "3.70 - 9.10 mg/dL",
+        "High": "> 9.10 mg/dL"
+      },
+      "recommendations": {
+        "Low": "Your uric acid level is low. This is usually not clinically significant.\n\nYour bone & joint profile is normal.",
+        "Normal": "Your bone & joint profile is normal.",
+        "High": "Your uric acid level is raised. High levels of uric acid may cause gout and formation of urinary stones. Foods that are high in purine such as seafood, red meat, and alcohol should be avoided. Please consult our doctor for further medical advice."
+      }
+    },
+    {
+      "no": 4,
+      "parameter": "Uric Acid (Female) (3084-1)",
+      "cutoffs": {
+        "Low": "< 2.52 mg/dL",
+        "Normal": "2.52 - 6.22 mg/dL",
+        "High": "> 6.22 mg/dL"
+      },
+      "recommendations": {
+        "Low": "Your uric acid level is low. This is usually not clinically significant.",
+        "Normal": "Your bone & joint profile is normal.",
+        "High": "Your uric acid level is raised. High levels of uric acid may cause gout and formation of urinary stones. Foods that are high in purine such as seafood, red meat, and alcohol should be avoided. Please consult our doctor for further medical advice."
+      }
+    },
+    {
+      "no": 5,
+      "parameter": "Rheumatoid Factor (11572-5)",
+      "cutoffs": {
+        "Normal": "< 14 IU/mL",
+        "High": ">=14 IU/mL"
+      },
+      "recommendations": {
+        "Normal": "Your bone & joint profile is normal.",
+        "High": "Your rheumatoid factor (RF) level is raised. High levels of RF is seen in 60-70% of patients with rheumatoid arthritis. However, false positives can occur in 5% of healthy individuals and in any inflammatory conditions such as Sjögren's syndrome, Systemic Lupus Erythematosus and Mixed Connective Tissue Disorder. Please consult our doctor for further medical advice."
+      }
+    },
+    {
+      "no": 6,
+      "parameter": "Vitamin D (Total)",
+      "cutoffs": {
+        "Deficient": "< 10.0 ng/mL",
+        "Insufficient": "10.0 - 29.9 ng/mL",
+        "Sufficient": "30.0 - 99.9 ng/mL",
+        "Possible Toxicity": ">= 100.0 ng/mL"
+      },
+      "recommendations": {
+        "Deficient": "Your vitamin D level is low. \n\nDecreased levels of vitamin D are associated with osteoporosis, diabetes, cardiovascular disease, and other autoimmune disorders. Exposure to sunlight and vitamin D supplements can improve your vitamin D level. Please consult our doctor for further medical advice.",
+        "Insufficient": "Your vitamin D level is low. \n\nDecreased levels of vitamin D are associated with osteoporosis, diabetes, cardiovascular disease and other autoimmune disorders. Exposure to sunlight and vitamin D supplements can improve your vitamin D level. Please consult our doctor for further medical advice.",
+        "Sufficient": "Your bone & joint profile is normal.",
+        "Possible Toxicity": "Your vitamin D level is raised, indicating you may have vitamin D intoxication. \n\nYou are encouraged to discontinue your vitamin D supplements (if any). Please consult our doctor for further medical advice."
+      },
+      "subtypes": {
+        "D2": {
+          "0 ng/mL": "Your vitamin D2 level is below quantifiable level.",
+          "> 0 ng/mL": "Your vitamin D2 is XX ng/mL"
+        },
+        "D3": {
+          "0 ng/mL": "Your vitamin D3 level is below quantifiable level.",
+          "> 0 ng/mL": "Your vitamin D3 is XX ng/mL"
+        }
+      }
+    },
+    {
+      "no": 11,
+      "parameter": "Zinc Whole Blood",
+      "cutoffs": {
+        "Low": "< 4400.00 ug/L",
+        "Normal": "4400.00 - 8600.00 ug/L",
+        "High": "> 8600.00 ug/L"
+      },
+      "recommendations": {
+        "Low": "Your zinc level is low. Zinc is an essential nutrient that supports growth and your immune system. Please consult our doctor for further medical advice.",
+        "Normal": "Your bone & joint profile is normal.",
+        "High": "Your zinc level is raised. Zinc is an essential nutrient that supports growth and your immune system. Please consult our doctor for further medical advice."
+      }
+    },
+    {
+      "no": 11,
+      "parameter": "Zinc Serum (5763-8)",
+      "remarks": "Default unit: ug/L",
+      "cutoffs": {
+        "Low": {
+          "ug/L": "< 724",
+          "umol/L": "< 11.07"
+        },
+        "Normal": {
+          "ug/L": "724.00 - 1244.00",
+          "umol/L": "11.07 - 19.03"
+        },
+        "High": {
+          "ug/L": "> 1244",
+          "umol/L": "> 19.03"
+        }
+      },
+      "recommendations": {
+        "Low": "Your zinc level is low. Zinc is an essential nutrient that supports growth and your immune system. Please consult our doctor for further medical advice.",
+        "Normal": "Your bone & joint profile is normal.",
+        "High": "Your zinc level is raised. Zinc is an essential nutrient that supports growth and your immune system. Please consult our doctor for further medical advice."
+      }
+    },
+    {
+      "no": 12,
+      "parameter": "Magnesium (19123-9)",
+      "cutoffs": {
+        "Low": "< 1.60 mg/dL",
+        "Normal": "1.60 - 2.60 mg/dL",
+        "High": "> 2.60 mg/dL"
+      },
+      "recommendations": {
+        "Low": "Your magnesium level is low. Magnesium is a mineral that supports body functions, including regulating muscle and nerve functions, and energy production. Please consult our doctor for further medical advice.",
+        "Normal": "Your bone & joint profile is normal.",
+        "High": "Your magnesium level is raised. Magnesium is a mineral that supports body functions, including regulating muscle and nerve functions, and energy production. Please consult our doctor for further medical advice."
+      }
+    }
+  ]
+}

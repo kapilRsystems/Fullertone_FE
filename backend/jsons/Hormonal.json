@@ -1,0 +1,329 @@
+{
+    "Hormonal":[
+    {
+        "Interpretation": "No",
+        
+        "Display in Report": "Blood Test: Hormonal Panel"
+    },
+    {
+        "Interpretation": "1",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "2",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "3",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "4",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "5",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "6",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "7",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "8",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "9",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "10",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "High"
+    },
+    {
+        "Interpretation": "11",
+        
+        "Display in Report": "Very low ovarian reserve"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Low ovarian reserve"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Normal Ovarian reserve"
+    },
+    {
+        "Interpretation": "",
+        
+        "Display in Report": "Good ovarian reserve"
+    }
+]
+}

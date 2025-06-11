@@ -1,0 +1,31 @@
+{
+    "Pancreas":[
+    {
+        "N": "1",
+        "Parameter": "Amylase\n(1798-8)",
+        "Remarks": "",
+        "Cut-off": "< 28",
+        "Units": "U/L",
+        "Result": "Low",
+        "Recommendations": "Your amylase levels are below normal limits. Amylase is an enzyme made by pancreas and salivary glands that helps to break down carbohydrates. A low amylase level may be suggest a pancreas, liver or kidney related disorder, or cystic fibrosis. Please consult our doctor for further medical advice."
+    },
+    {
+        "N": "",
+        "Parameter": "",
+        "Remarks": "",
+        "Cut-off": "28-100",
+        "Units": "U/L",
+        "Result": "Normal",
+        "Recommendations": ""
+    },
+    {
+        "N": "",
+        "Parameter": "",
+        "Remarks": "",
+        "Cut-off": "> 100",
+        "Units": "U/L",
+        "Result": "High",
+        "Recommendations": "Your amylase levels are above normal limits. Amylase is an enzyme made by pancreas and salivary glands that helps to break down carbohydrates. Increased level of amylase may suggest a pancreas related disorder such as pancreatitis, pancreatic cancer etc. Please consult our doctor for further medical advice"
+    }
+]
+}

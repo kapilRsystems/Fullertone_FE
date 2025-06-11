@@ -1,0 +1,374 @@
+{
+  "cholesterol_parameters": [
+    {
+      "parameter": "Total Blood Cholesterol (2093-3)",
+      "unit": "mg/dL",
+      "ranges": [
+        {
+          "cutoff": "< 200",
+          "result": "Optimal",
+          "potential_issues": null,
+          "action_steps": null
+        },
+        {
+          "cutoff": "200 - 239",
+          "result": "Borderline",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your total cholesterol level is acceptable but borderline high. This puts you at risk of developing atherosclerosis and coronary heart disease. A low cholesterol and low saturated fat diet, together with regular exercise, can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": ">= 240",
+          "result": "High",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your total cholesterol level is high. This puts you at a high risk of developing atherosclerosis and coronary heart disease. A low cholesterol and low saturated fat diet, together with regular exercise, can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter": "LDL Cholesterol (13457-7)",
+      "unit": "mg/dL",
+      "risk_categories": {
+        "low_risk": {
+          "ranges": [
+            {
+              "cutoff": "< 130",
+              "result": null,
+              "potential_issues": null,
+              "action_steps": null
+            },
+            {
+              "cutoff": "130 - 159",
+              "result": null,
+              "potential_issues": null,
+              "action_steps": "Your LDL cholesterol (bad) is acceptable but borderline raised. Your target values and risk assessment are determined based on your declared medical history and other risk factors. You are at low risk of developing atherosclerosis and coronary heart disease. A low cholesterol and low saturated fat diet, together with regular exercise can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains, can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": ">= 160",
+              "result": null,
+              "potential_issues": null,
+              "action_steps": "Target: < 160mg/dL Your LDL cholesterol (bad) level is high. Your target values and risk assessment are determined based on your declared medical history and other risk factors. You are at low risk of developing atherosclerosis and coronary heart disease. A low cholesterol and low saturated fat diet, together with regular exercise can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        "intermediate_risk": {
+          "ranges": [
+            {
+              "cutoff": "< 130",
+              "result": null,
+              "potential_issues": null,
+              "action_steps": null
+            },
+            {
+              "cutoff": "130 - 160",
+              "result": null,
+              "potential_issues": "Cardiac & Lipids",
+              "action_steps": "Target: < 130mg/dL Your LDL cholesterol (bad) is acceptable but borderline raised. Your target values and risk assessment are determined based on your declared medical history and other risk factors. You are at intermediate risk of developing atherosclerosis and coronary heart disease. A low cholesterol and low saturated fat diet, together with regular exercise can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": ">= 160",
+              "result": null,
+              "potential_issues": "Cardiac & Lipids",
+              "action_steps": "Target: < 130mg/dL Your LDL cholesterol (bad) level is high. Your target values and risk assessment are determined based on your declared medical history and other risk factors. You are at intermediate risk of developing atherosclerosis and coronary heart disease. A low cholesterol and low saturated fat diet, together with regular exercise can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        "high_risk": {
+          "ranges": [
+            {
+              "cutoff": "< 100",
+              "result": null,
+              "potential_issues": null,
+              "action_steps": null
+            },
+            {
+              "cutoff": "100 - 160",
+              "result": null,
+              "potential_issues": "Cardiac & Lipids",
+              "action_steps": "Target: < 100mg/dL... Although your LDL cholesterol (bad) level falls in the acceptable range, your LDL cholesterol level is considered high as you are at high risk of developing atherosclerosis and coronary heart disease due to your risk assessment determined based on your declared medical history and other risk factors. A low cholesterol and low saturated fat diet, together with regular exercise, can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": ">= 160",
+              "result": null,
+              "potential_issues": "Cardiac & Lipids",
+              "action_steps": "Target: < 100mg/dL Your LDL cholesterol (bad) level is high. Your target values and risk assessment are determined based on your declared medical history and other risk factors. You are at high risk of developing atherosclerosis and coronary heart disease. A low cholesterol and low saturated fat diet, together with regular exercise, can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+            }
+          ]
+        },
+        "very_high_risk": {
+          "ranges": [
+            {
+              "cutoff": "< 70",
+              "result": null,
+              "potential_issues": null,
+              "action_steps": null
+            },
+            {
+              "cutoff": "70 - 160",
+              "result": null,
+              "potential_issues": "Cardiac & Lipids",
+              "action_steps": "< 70mg/dL Although your LDL cholesterol (bad) level falls in the optimal range, your LDL cholesterol level is considered high as you are at very high risk of developing atherosclerosis and coronary heart disease due to your risk assessment determined based on your declared medical history and other risk factors. A low cholesterol and low saturated fat diet, together with regular exercise, can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+            },
+            {
+              "cutoff": ">= 160",
+              "result": null,
+              "potential_issues": "Cardiac & Lipids",
+              "action_steps": "< 70mg/dL Your LDL cholesterol (bad) level is high. Your target values and risk assessment are determined based on your declared medical history and other risk factors. You are at very high risk of developing atherosclerosis and coronary heart disease. A low cholesterol and low saturated fat diet, together with regular exercise, can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "parameter": "HDL Cholesterol (2085-9)",
+      "unit": "mg/dL",
+      "ranges": [
+        {
+          "cutoff": "< 50",
+          "result": "Low",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your HDL cholesterol (good) level is low. A high HDL cholesterol level helps to fight heart disease. Regular exercise and omega-3 supplements can help increase the level. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "50 - 59",
+          "result": "Borderline",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your HDL cholesterol (good) level is acceptable but borderline low. A high HDL cholesterol level helps to fight heart disease. Regular exercise and omega-3 supplements can help increase the level. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": ">59",
+          "result": "Optimal",
+          "potential_issues": null,
+          "action_steps": null
+        }
+      ]
+    },
+    {
+      "parameter": "TC/HDL Ratio (32309-7)",
+      "unit": "Ratio",
+      "ranges": [
+        {
+          "cutoff": "< 4.6",
+          "result": "Normal",
+          "potential_issues": null,
+          "action_steps": null
+        },
+        {
+          "cutoff": ">= 4.6",
+          "result": "High",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your TC/HDL ratio is above normal limits."
+        }
+      ]
+    },
+    {
+      "parameter": "Triglycerides (2571-8)",
+      "unit": "mg/dL",
+      "ranges": [
+        {
+          "cutoff": "<150",
+          "result": "Optimal",
+          "potential_issues": null,
+          "action_steps": null
+        },
+        {
+          "cutoff": "150 - 199",
+          "result": "Borderline",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your triglycerides (fat) level is acceptable but borderline high.... This puts you at risk of developing atherosclerosis, coronary heart disease, and pancreatitis. Please observe a diet which is low in sugar and saturated fat, and maintain a regular exercise regime. Long-term medication and omega-3 supplements may help reduce the levels. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "200 - 399",
+          "result": "High",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your triglycerides (fat) level is raised. This puts you at a high risk of developing atherosclerosis, coronary heart disease, and pancreatitis. Please observe a diet which is low in sugar and saturated fat, and maintain a regular exercise regime. Long-term medication and omega-3 supplements may help reduce the levels. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": ">= 400",
+          "result": "High",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your triglycerides (fat) level is too high and your LDL cholesterol (bad) is not recordable. This puts you at a high risk of developing atherosclerosis, coronary heart disease, and pancreatitis. Please observe a diet which is low in sugar and saturated fat, and maintain a regular exercise regime. Long-term medication and omega-3 supplements may help reduce the levels. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter": "hs-CRP or wr-CRP",
+      "unit": "mg/L",
+      "ranges": [
+        {
+          "cutoff": "< 1.0",
+          "result": "Low CVD Risk",
+          "potential_issues": null,
+          "action_steps": null
+        },
+        {
+          "cutoff": "1.0 - 3.0",
+          "result": "Average CVD Risk",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your hs-CRP level is borderline high. This can suggest a low risk of infection or inflammation. This can also suggest you are at intermediate risk for developing cardiovascular disease (CVD) such as coronary heart disease and stroke, However, this marker should be analyzed together with other risk factors. Please observe a healthy diet, exercise regularly, and maintain optimal weight, cholesterol, blood pressure, and sugar levels. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "3.0 - 5.0",
+          "result": "Increased CVD Risk",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your hs-CRP level is high. This can suggest a low risk of infection or inflammation. This can also suggest you are at a higher risk for developing cardiovascular disease (CVD) such as coronary heart disease and stroke. However, this marker should be analyzed together with other risk factors. Please observe a healthy diet, exercise regularly, and maintain optimal weight, cholesterol, blood pressure, and sugar levels. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "> 5.0",
+          "result": "Possible Inflammation",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your hs-CRP level is very high. This is suggestive of an infection or inflammation. A repeat blood test is recommended. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter": "Homocysteine",
+      "unit": "umol/L",
+      "ranges": [
+        {
+          "cutoff": "< 15",
+          "result": "Normal",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": null
+        },
+        {
+          "cutoff": ">= 15",
+          "result": "High",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your homocysteine level is high. This puts you at a high risk for developing cardiovascular disease (CVD) such as coronary heart disease and stroke. High levels of homocysteine are also associated with Vitamin B12 and folate deficiencies. You are encouraged to increase your Vitamin B levels by maintaining a healthy lifestyle, and consuming more green leafy vegetables, fruits, and grain-based foods fortified with folic acid. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter": "Apolipoprotein A1",
+      "unit": "g/L",
+      "ranges": [
+        {
+          "cutoff": "< 1.08 (Female) < 1.04 (Male)",
+          "result": "Low",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": null
+        },
+        {
+          "cutoff": "1.08 - 2.25 (Female) 1.04 - 2.02 (Male)",
+          "result": "Normal",
+          "potential_issues": null,
+          "action_steps": null
+        },
+        {
+          "cutoff": "> 2.25 (Female) > 2.02 (Male)",
+          "result": "High",
+          "potential_issues": null,
+          "action_steps": null
+        }
+      ]
+    },
+    {
+      "parameter": "Apolipoprotein B",
+      "unit": "g/L",
+      "ranges": [
+        {
+          "cutoff": "< 0.60 (Female) < 0.66 (Male)",
+          "result": "Low",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": null
+        },
+        {
+          "cutoff": "0.60 - 1.17 (Female) 0.66 - 1.33 (Male)",
+          "result": "Normal",
+          "potential_issues": null,
+          "action_steps": null
+        },
+        {
+          "cutoff": "> 1.17 (Female) > 1.33 (Male)",
+          "result": "High",
+          "potential_issues": null,
+          "action_steps": null
+        }
+      ]
+    },
+    {
+      "parameter": "Apolipoprotein B/A1 Ratio",
+      "unit": "Ratio",
+      "ranges": [
+        {
+          "cutoff": "< 0.22",
+          "result": "Low",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": "Your apolipoprotein (Apo) B/A1 ratio is low. ApoB is a primary protein in LDL (bad) cholesterol), and ApoA1 is a primary protein in HDL (good) cholesterol). Low ApoB:ApoA1 ratio is associated with a reduced risk of cardiovascular disease such as coronary heart disease and stroke."
+        },
+        {
+          "cutoff": "0.22 - 0.80",
+          "result": "Normal",
+          "potential_issues": null,
+          "action_steps": null
+        },
+        {
+          "cutoff": "> 0.80",
+          "result": "High",
+          "potential_issues": null,
+          "action_steps": "Your apolipoprotein (Apo) B/A1 ratio is high. ApoB is a primary protein in LDL (bad) cholesterol), and ApoA1 is a primary protein in HDL (good) cholesterol). High ApoB:ApoA1 ratio is associated with an increased risk of cardiovascular disease such as coronary heart disease and stroke. A low cholesterol and low saturated fat diet, together with regular exercise can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains, can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter": "Lipoprotein (a)",
+      "unit": "mg/dL",
+      "ranges": [
+        {
+          "cutoff": "< UL",
+          "result": "Normal",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": null
+        },
+        {
+          "cutoff": ">= UL",
+          "result": "High",
+          "potential_issues": null,
+          "action_steps": "Your lipoprotein (a) level is high. This is associated with an increased risk of cardiovascular disease such as heart attack, stroke, or aortic stenosis, especially if you have familial hypercholesterolemia or coronary heart disease. High lipoprotein (a) levels usually run in families. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter": "hs-Troponin T",
+      "unit": "pg/mL",
+      "ranges": [
+        {
+          "cutoff": "<14.0",
+          "result": "Low Risk",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": null
+        },
+        {
+          "cutoff": "≥14.0",
+          "result": "High Risk",
+          "potential_issues": null,
+          "action_steps": "Your hs-Troponin T level is high. This indicate that you are possibly at high risk for developing cardiovascular disease (CVD) such as heart attack/coronary heart disease, heart failure or ischemic stroke, However, this marker should be analyzed together with other risk factors. A low cholesterol and low saturated fat diet, together with regular exercise can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains, can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "parameter": "hs-Troponin I",
+      "unit": "pg/mL",
+      "ranges": [
+        {
+          "cutoff": "Male: < 6, Female: < 4",
+          "result": "Low Risk",
+          "potential_issues": "Cardiac & Lipids",
+          "action_steps": null
+        },
+        {
+          "cutoff": "Male: 6 - 12, Female: 4 - 10",
+          "result": "Moderate Risk",
+          "potential_issues": null,
+          "action_steps": "Your troponin level is high. This indicates that you are possibly at moderate risk for developing cardiovascular disease (CVD) such as heart attack/coronary heart disease, heart failure or ischemic stroke, However, this marker should be analyzed together with other risk factors. A low cholesterol and low saturated fat diet, together with regular exercise can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains, can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "Male: > 12, Female: >10",
+          "result": "High Risk",
+          "potential_issues": null,
+          "action_steps": "Your troponin level is high. This indicates that you are possibly at high risk for developing cardiovascular disease (CVD) such as heart attack/coronary heart disease, heart failure or ischemic stroke, However, this marker should be analyzed together with other risk factors. A low cholesterol and low saturated fat diet, together with regular exercise can improve your cholesterol profile. Major sources of bad cholesterol include organ meats, egg yolk, squid, shellfish, prawns, crabs, and animal fats. Fibre found in oats, oat bran, barley, fruit, vegetables, legumes, and whole grains, can speed up the removal of cholesterol from your body. Please consult our doctor for further medical advice."
+        }
+      ]
+    }
+  ]
+}

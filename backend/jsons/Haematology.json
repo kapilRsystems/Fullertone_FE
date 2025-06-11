@@ -1,0 +1,586 @@
+{
+  "blood_test_parameters": [
+    {
+      "no": 1,
+      "parameter": "ABO Grouping (883-9)",
+      "remarks": ["A", "B", "AB", "O"],
+      "numerical_cutoff": null,
+      "units": null,
+      "result": ["A", "B", "AB", "O"],
+      "recommendations": "Your haematology profile is within normal limits."
+    },
+    {
+      "no": 1,
+      "parameter": "Rhesus (10331-7)",
+      "remarks": ["Positive", "Negative"],
+      "numerical_cutoff": null,
+      "units": null,
+      "result": ["Positive", "Negative"],
+      "recommendations": "Your haematology profile is within normal limits."
+    },
+    {
+      "no": 2,
+      "parameter": "Haemoglobin (718-7)",
+      "remarks": "Male",
+      "ranges": [
+        {
+          "cutoff": "< 13.5",
+          "units": "g/dL",
+          "result": "Low",
+          "recommendation": "Your haemoglobin level is low. This is suggestive of anaemia. Follow up anaemia studies are recommended. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "13.5 - 18.0",
+          "units": "g/dL",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">18.0",
+          "units": "g/dL",
+          "result": "High",
+          "recommendation": "Your haemoglobin level is raised. High levels of haemoglobin are seen in smokers and individuals who are taking medications such as erythropoietin. This may also be associated with hypoxemia and bone marrow disorders. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "parameter": "Haemoglobin (718-7)",
+      "remarks": "Female",
+      "ranges": [
+        {
+          "cutoff": "< 11.5",
+          "units": "g/dL",
+          "result": "Low",
+          "recommendation": "Your haemoglobin level is low. This is suggestive of anaemia. Follow up anaemia studies are recommended. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "11.5 - 16.5",
+          "units": "g/dL",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": "> 16.5",
+          "units": "g/dL",
+          "result": "High",
+          "recommendation": "Your haemoglobin level is raised. High levels of haemoglobin are seen in smokers and individuals who are taking medications such as erythropoietin. This may also be associated with hypoxemia and bone marrow disorders. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "parameter": "White Blood Cells (6690-2)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "< 4",
+          "units": "X 10^9/L",
+          "result": "Low",
+          "recommendation": "Your white cell count is low. Decreased levels of white blood cells may be associated with infection and bone marrow disorders. A repeat blood test is recommended. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "4.0 - 11",
+          "units": "X 10^9/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">11",
+          "units": "X 10^9/L",
+          "result": "High",
+          "recommendation": "Your white cell count is raised. High levels of white blood cells are associated with infection, possibly of bacterial origin. A repeat blood test and a course of antibiotics may be recommended. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "parameter": "Red Blood Cells (789-8)",
+      "remarks": "Male",
+      "ranges": [
+        {
+          "cutoff": "<4.5",
+          "units": "X 10^12/L",
+          "result": "Low",
+          "recommendation": "Your red cell count is low. This is suggestive of anaemia. Follow up anaemia studies are recommended. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "4.5 - 6.5",
+          "units": "X 10^12/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">6.5",
+          "units": "X 10^12/L",
+          "result": "High",
+          "recommendation": "Your red cell count level is raised. High levels of haemoglobin are seen in smokers and individuals who are taking medications such as erythropoietin. This may also be associated with hypoxemia and bone marrow disorders. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 5,
+      "parameter": "Red Blood Cells (789-8)",
+      "remarks": "Female",
+      "ranges": [
+        {
+          "cutoff": "<3.9",
+          "units": "X 10^12/L",
+          "result": "Low",
+          "recommendation": "Your red cell count is low. This is suggestive of anaemia. Follow up anaemia studies are recommended. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "3.9 - 5.6",
+          "units": "X 10^12/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">5.6",
+          "units": "X 10^12/L",
+          "result": "High",
+          "recommendation": "Your red cell count level is raised. High levels of haemoglobin are seen in smokers and individuals who are taking medications such as erythropoietin. This may also be associated with hypoxemia and bone marrow disorders. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 6,
+      "parameter": "Platelets (777-3)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "<140.0",
+          "units": "X 10^9/L",
+          "result": "Low",
+          "recommendation": "Your platelet count is low. Decreased levels of platelets may be associated with bone marrow disorders and viral infections such as dengue fever. A repeat blood test is recommended. Please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "140-440",
+          "units": "X 10^9/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">440.0",
+          "units": "X 10^9/L",
+          "result": "High",
+          "recommendation": "Your platelet count is raised. High levels of platelets may be associated with inflammation or infection in the body. A repeat blood test is recommended. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 7,
+      "parameter": "Neutrophils (26511-6)",
+      "remarks": "Use absolute value",
+      "ranges": [
+        {
+          "cutoff": "<40.0% / <1.60",
+          "units": "% / X 10^9/L",
+          "result": "Low",
+          "recommendation": "White blood cells can be categorized into 5 main types - neutrophils, lymphocytes, monocytes, eosinophils, and basophils. They produce, transport and distribute antibodies as part of immune response to fight against infections. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "40.0-76.0% / 1.60 - 6.90",
+          "units": "% / X 10^9/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">76.0% / >6.90",
+          "units": "% / X 10^9/L",
+          "result": "High",
+          "recommendation": "White blood cells can be categorized into 5 main types - neutrophils, lymphocytes, monocytes, eosinophils, and basophils. They produce, transport and distribute antibodies as part of immune response to fight against infections. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 8,
+      "parameter": "Lymphocytes (26478-8)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "<15% / <1.20",
+          "units": "% / X 10^9/L",
+          "result": "Low",
+          "recommendation": "White blood cells can be categorized into 5 main types - neutrophils, lymphocytes, monocytes, eosinophils, and basophils. They produce, transport and distribute antibodies as part of immune response to fight against infections. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "15-45% / 1.20-3.90",
+          "units": "% / X 10^9/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">45% / >3.90",
+          "units": "% / X 10^9/L",
+          "result": "High",
+          "recommendation": "White blood cells can be categorized into 5 main types - neutrophils, lymphocytes, monocytes, eosinophils, and basophils. They produce, transport and distribute antibodies as part of immune response to fight against infections. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 9,
+      "parameter": "Monocytes (26485-3)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "<2.0% / <0.10",
+          "units": "% / X 10^9/L",
+          "result": "Low",
+          "recommendation": "White blood cells can be categorized into 5 main types - neutrophils, lymphocytes, monocytes, eosinophils, and basophils. They produce, transport and distribute antibodies as part of immune response to fight against infections. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "2.0-12.0% / 0.10-0.80",
+          "units": "% / X 10^9/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">12.0% / >0.80",
+          "units": "% / X 10^9/L",
+          "result": "High",
+          "recommendation": "White blood cells can be categorized into 5 main types - neutrophils, lymphocytes, monocytes, eosinophils, and basophils. They produce, transport and distribute antibodies as part of immune response to fight against infections. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 10,
+      "parameter": "Eosinophils (26450-7)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "<= 6.0% / <= 0.60",
+          "units": "% / X 10^9/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">6.0% / >0.60",
+          "units": "% / X 10^9/L",
+          "result": "High",
+          "recommendation": "White blood cells can be categorized into 5 main types - neutrophils, lymphocytes, monocytes, eosinophils, and basophils. They produce, transport and distribute antibodies as part of immune response to fight against infections. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 11,
+      "parameter": "Basophil (706-2)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "<= 2.0% / <=0.19",
+          "units": "% / X 10^9/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">2.0% / >0.19",
+          "units": "% / X 10^9/L",
+          "result": "High",
+          "recommendation": "White blood cells can be categorized into 5 main types - neutrophils, lymphocytes, monocytes, eosinophils, and basophils. They produce, transport and distribute antibodies as part of immune response to fight against infections. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "parameter": "Haematocrit (4544-3)",
+      "remarks": "Male",
+      "ranges": [
+        {
+          "cutoff": "<0.4",
+          "units": null,
+          "result": "Low",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "0.4 - 0.54",
+          "units": null,
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": "> 0.54",
+          "units": null,
+          "result": "High",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 12,
+      "parameter": "Haematocrit (4544-3)",
+      "remarks": "Female",
+      "ranges": [
+        {
+          "cutoff": "< 0.36",
+          "units": null,
+          "result": "Low",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "0.36 - 0.47",
+          "units": null,
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": "> 0.47",
+          "units": null,
+          "result": "High",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 13,
+      "parameter": "Mean Cell Volume (MCV) (787-2)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "<78.0",
+          "units": "fL",
+          "result": "Low",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "78.0-98.0",
+          "units": "fL",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">98.0",
+          "units": "fL",
+          "result": "High",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 14,
+      "parameter": "Mean Cell Haemoglobin (MCH) (785-6)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "<27.0",
+          "units": "pg",
+          "result": "Low",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "27.0-32.0",
+          "units": "pg",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">32.0",
+          "units": "pg",
+          "result": "High",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 15,
+      "parameter": "Mean Cell Haemoglobin Concentration (MCHC) (786-4)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "<31.0",
+          "units": "g/dL",
+          "result": "Low",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "31.0-36.0",
+          "units": "g/dL",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">36.0",
+          "units": "g/dL",
+          "result": "High",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 16,
+      "parameter": "Red Cell Distribution Width (RDW)",
+      "remarks": null,
+      "ranges": [
+        {
+          "cutoff": "<11.0",
+          "units": "%",
+          "result": "Low",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "11.0-15.5",
+          "units": "%",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">15.5",
+          "units": "%",
+          "result": "High",
+          "recommendation": "Your Haematocrit, MCV, MCH, MCHC, and RDW levels provide information about the haemoglobin content and the size of your red blood cells. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 17,
+      "parameter": "Reticulocytes (14196-0)",
+      "remarks": "Use absolute value",
+      "ranges": [
+        {
+          "cutoff": "< LL",
+          "units": "X 10^9/L",
+          "result": "Low",
+          "recommendation": "Your reticulocyte count measures the immature red blood cells in your bone marrow. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        },
+        {
+          "cutoff": "LL - UL",
+          "units": "X 10^9/L",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": "> UL",
+          "units": "X 10^9/L",
+          "result": "High",
+          "recommendation": "Your reticulocyte count measures the immature red blood cells in your bone marrow. If your levels are out of the normal limits, please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "parameter": "ESR, Quest, < 50 yrs old (30341-2)",
+      "remarks": "Female",
+      "ranges": [
+        {
+          "cutoff": "< 21",
+          "units": "mm/Hr",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">=21",
+          "units": "mm/Hr",
+          "result": "High",
+          "recommendation": "Your ESR level is raised. Raised ESR is of uncertain clinical significance but may be due to an infection or inflammation. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "parameter": "ESR, Quest, < 50 yrs old (30341-2)",
+      "remarks": "Male",
+      "ranges": [
+        {
+          "cutoff": "<16",
+          "units": "mm/Hr",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">=16",
+          "units": "mm/Hr",
+          "result": "High",
+          "recommendation": "Your ESR level is raised. Raised ESR is of uncertain clinical significance but may be due to an infection or inflammation. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "parameter": "ESR, Quest, > 50 years old (30341-2)",
+      "remarks": "Female",
+      "ranges": [
+        {
+          "cutoff": "<31",
+          "units": "mm/Hr",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">= 31",
+          "units": "mm/Hr",
+          "result": "High",
+          "recommendation": "Your ESR level is raised. Raised ESR is of uncertain clinical significance but may be due to an infection or inflammation. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 18,
+      "parameter": "ESR, Quest, > 50 years old (30341-2)",
+      "remarks": "Male",
+      "ranges": [
+        {
+          "cutoff": "<21",
+          "units": "mm/Hr",
+          "result": "Normal",
+          "recommendation": "Your haematology profile is within normal limits."
+        },
+        {
+          "cutoff": ">= 21",
+          "units": "mm/Hr",
+          "result": "High",
+          "recommendation": "Your ESR level is raised. Raised ESR is of uncertain clinical significance but may be due to an infection or inflammation. Please consult our doctor for further medical advice."
+        }
+      ]
+    },
+    {
+      "no": 19,
+      "parameter": "Peripheral Blood Film (5909-7)",
+      "remarks": "Red cells appear normochromic and normocytic",
+      "result": "Normal",
+      "recommendation": "Your haematology profile is within normal limits."
+    },
+    {
+      "no": 19,
+      "parameter": "Peripheral Blood Film (5909-7)",
+      "remarks": "No abnormal white blood cells seen. Red cells appear normochromic and normocytic",
+      "result": "Normal",
+      "recommendation": "Your haematology profile is within normal limits."
+    },
+    {
+      "no": 19,
+      "parameter": "Peripheral Blood Film (5909-7)",
+      "remarks": "No platelet clumps seen. Red cells appear normochromic and normocytic",
+      "result": "Normal",
+      "recommendation": "Your haematology profile is within normal limits."
+    },
+    {
+      "no": 19,
+      "parameter": "Peripheral Blood Film (5909-7)",
+      "remarks": "Any other combination",
+      "result": "Abnormal",
+      "recommendation": "Your peripheral blood film shows some abnormalities. Peripheral blood film provides information on the number and appearance of blood cells. Please consult our doctor for further medical advice.",
+      "examples": [
+        "Red cells appear normochromic and normocytic. Shows moderate degree of eosinophilia.",
+        "Shows marked degree of eosinophilia. Red cells appear normochromic and normocytic.",
+        "Shows slight degree of macrocytosis.",
+        "Shows moderate degree of macrocytosis.",
+        "Shows marked degree of macrocytosis.",
+        "Shows slight degree of thrombocytosis.",
+        "Shows moderate degree of thrombocytosis.",
+        "Shows marked degree of thrombocytosis.",
+        "Shows slight degree of eosinophilia.",
+        "Shows moderate degree of eosinophilia.",
+        "Shows marked degree of eosinophilia.",
+        "Shows slightly hypochromic normocytic red blood cells.",
+        "Shows anisochromic and anisocytic red blood cells.",
+        "The blood cells show degenerative changes - ? Age/transport",
+        "Mild dyserythropoietic changes present. Iron Deficiency and Thalassaemia Trait have to be considered.",
+        "Dyserythropoietic changes present. Suggestive of Iron Deficiency and Thalassaemia Trait",
+        "Shows slight degree of thrombocytosis. Shows slightly hypochromic normocytic red blood cells."
+      ]
+    }
+  ],
+  "general_recommendation": {
+    "normal": "If everything is normal - Your haematology profile is within normal limits."
+  }
+}

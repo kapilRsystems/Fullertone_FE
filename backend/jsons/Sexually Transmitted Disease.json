@@ -1,0 +1,178 @@
+{
+  "STD":[
+  {
+    "No": 1,
+    "Parameter": "VDRL",
+    "Remarks": [
+      {
+        "type": "Normal",
+        "Interpretative Cut-off": "Non-Reactive",
+        "Result": "Non-Reactive",
+        "Recommendations": "Initial screening may be negative in early primary syphilis. If there is strong clinical history suggestive of syphilis risk, please do a RPR test and/or repeat VD screening in 3 to 4 weeks' time. Please consult our doctor for further medical advices."
+      },
+      {
+        "type": "Abnormal",
+        "Interpretative Cut-off": "Reactive",
+        "Result": "Refer to RPR",
+        "Recommendations": "-"
+      }
+    ]
+  },
+  {
+    "No": 1,
+    "Parameter": "RPR",
+    "Remarks": [
+      {
+        "type": "RPR Reactive",
+        "TPPA/TPHA": "Reactive",
+        "Result": "",
+        "Recommendations": "This indicates a likelihood for an active syphilis infection. Please consult our doctor for further advice on treatment."
+      },
+      {
+        "type": "RPR Reactive",
+        "TPPA/TPHA": "Non-reactive",
+        "Result": "",
+        "Recommendations": "Your tests most likely indicate a false positive VDRL result. If there is strong clinical history suggestive of syphilis risk, please do a RPR test and/or repeat VD screening in 3 to 4 weeks' time. Please consult our doctor for further medical advices."
+      },
+      {
+        "type": "RPR Weak reactive",
+        "TPPA/TPHA": "Reactive",
+        "Result": "",
+        "Recommendations": "Your VDRL and TPPA are both reactive, however your VDRL (RPR) is weak reactive which is indicative of a serofast state. These findings are likely indicative of previously treated syphilis. Please consult our doctor for further medical advice if you have symptoms."
+      },
+      {
+        "type": "RPR Weak reactive",
+        "TPPA/TPHA": "Non-reactive",
+        "Result": "",
+        "Recommendations": "Your tests most likely indicate a false positive VDRL result. If there is strong clinical history suggestive of syphilis risk, please do a RPR test and/or repeat VD screening in 3 to 4 weeks' time. Please consult our doctor for further medical advices."
+      },
+      {
+        "type": "RPR Non-reactive",
+        "TPPA/TPHA": "Reactive",
+        "Result": "",
+        "Recommendations": "Your VDRL and TPPA are both reactive, however your VDRL (RPR) is non-reactive. These findings are likely indicative of previously treated syphilis. Please consult our doctor for further medical advice if you have symptoms."
+      },
+      {
+        "type": "RPR Non-reactive",
+        "TPPA/TPHA": "Non-reactive",
+        "Result": "",
+        "Recommendations": "Your tests most likely indicate a false positive VDRL result. If there is strong clinical history suggestive of syphilis risk, please do a RPR test and/or repeat VD screening in 3 to 4 weeks' time. Please consult our doctor for further medical advices."
+      },
+      {
+        "type": "RPR Non-reactive",
+        "TPPA/TPHA": "Indeterminate",
+        "Result": "",
+        "Recommendations": ""
+      }
+    ]
+  },
+  {
+    "No": 2,
+    "Parameter": "HIV Antibodies (7918-6)",
+    "Remarks": [
+      {
+        "type": "Normal",
+        "Interpretative Cut-off": "Non-Reactive",
+        "Result": "Non-Reactive",
+        "Recommendations": ""
+      },
+      {
+        "type": "Indeterminate",
+        "Interpretative Cut-off": "Indeterminate",
+        "Result": "Indeterminate",
+        "Recommendations": "Your HIV antibodies test is indeterminate. Please consult our doctor for further medical advice."
+      },
+      {
+        "type": "Abnormal",
+        "Interpretative Cut-off": "Reactive",
+        "Result": "Reactive",
+        "Recommendations": "A repeat test (chargeable) is recommended. Please consult our doctor for further medical advice."
+      }
+    ]
+  },
+  {
+    "No": 6,
+    "Parameter": "Chlamydia PCR",
+    "Remarks": [
+      {
+        "type": "Normal",
+        "Interpretative Cut-off": "Negative",
+        "Result": "Normal",
+        "Recommendations": ""
+      },
+      {
+        "type": "Abnormal",
+        "Interpretative Cut-off": "Positive",
+        "Result": "Abnormal",
+        "Recommendations": "You have a chlamydia infection that requires treatment. If left untreated, chlamydia may progress to serious damage of the reproductive organs along with other health problems. Please consult our doctor for further medical advice."
+      }
+    ]
+  },
+  {
+    "No": 7,
+    "Parameter": "Gonorrhoeae PCR",
+    "Remarks": [
+      {
+        "type": "Normal",
+        "Interpretative Cut-off": "Negative",
+        "Result": "Normal",
+        "Recommendations": ""
+      },
+      {
+        "type": "Abnormal",
+        "Interpretative Cut-off": "Positive",
+        "Result": "Abnormal",
+        "Recommendations": "You have a gonorrhoea infection that requires treatment. If left untreated, gonorrhoea can cause serious damage of the reproductive organs along with other health problems. Please consult our doctor for further medical advice."
+      }
+    ]
+  },
+  {
+    "No": 8,
+    "Parameter": "Herpes Simplex Virus Type I IgG",
+    "Remarks": [
+      {
+        "type": "Normal",
+        "Interpretative Cut-off": "Non-Reactive",
+        "Result": "Normal",
+        "Recommendations": ""
+      },
+      {
+        "type": "Abnormal",
+        "Interpretative Cut-off": "Borderline",
+        "Result": "Abnormal",
+        "Recommendations": "You had a Herpes Simplex Virus (HSV) Type I infection. However, your viral load is low. A repeat test is recommended to rule out false positive results. Please consult our doctor for further medical advice."
+      },
+      {
+        "type": "Abnormal",
+        "Interpretative Cut-off": "Reactive",
+        "Result": "Abnormal",
+        "Recommendations": "You had a Herpes Simplex Virus (HSV) Type I infection that may require treatment. Please consult our doctor for further medical advice."
+      }
+    ]
+  },
+  {
+    "No": 9,
+    "Parameter": "Herpes Simplex Virus Type II IgG",
+    "Remarks": [
+      {
+        "type": "Normal",
+        "Interpretative Cut-off": "Non-Reactive",
+        "Result": "Normal",
+        "Recommendations": ""
+      },
+      {
+        "type": "Abnormal",
+        "Interpretative Cut-off": "Borderline",
+        "Result": "Abnormal",
+        "Recommendations": "You had a Herpes Simplex Virus (HSV) Type II infection. However, your viral load is low. A repeat test is recommended to rule out false positive results. Please consult our doctor for further medical advice."
+      },
+      {
+        "type": "Abnormal",
+        "Interpretative Cut-off": "Reactive",
+        "Result": "Abnormal",
+        "Recommendations": "You had a Herpes Simplex Virus (HSV) Type II infection that may require treatment. Please consult our doctor for further medical advice."
+      }
+    ]
+  }
+]
+}
