@@ -1,27 +1,30 @@
-import React from 'react'
-import "./Patient.css"
+import React from 'react';
+import './Patient.css';
 import { Button } from '@progress/kendo-react-buttons';
 import '@progress/kendo-theme-default/dist/all.css';
 
 function PatienetDetail() {
   return (
     <>
-      <div className='containerP flex justify-center gap-[40px] h-[40px] w-100% text-blue-400 '>
-        <h2>Patient name</h2>
-        <h3>Gender</h3>
-        <h3>Age</h3>
-        <span>|</span>
-        <h3>Patient ID</h3>
-        <span>|</span>
-        <h3>NHS Number</h3>
-        <span>|</span>
-        <h3><a href="#">Recommendations</a></h3>
-        {/* <Button className="bg-red-500 hover:bg-red-600 text-white">
-          Kendo React
-        </Button> */}
+      <div className="containerP text-blue-400 px-4 py-2">
+        <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm sm:text-base md:text-lg">
+          <h2 className="font-semibold">Patient Name</h2>
+          <h3>Gender</h3>
+          <h3>Age</h3>
+          <span className="hidden sm:inline">|</span>
+          <h3>Patient ID</h3>
+          <span className="hidden sm:inline">|</span>
+          <h3>NHS Number</h3>
+          <span className="hidden sm:inline">|</span>
+          <h3>
+            <a href="#" className="underline hover:text-blue-600 transition">
+              Recommendations
+            </a>
+          </h3>
+        </div>
       </div>
     </>
-  )
+  );
 }
 
-export default PatienetDetail
+export default PatienetDetail;

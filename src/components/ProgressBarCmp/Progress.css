@@ -11,7 +11,7 @@
 .progress-fill {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to right, yellow 0%, green 50%, red 100%);
+  background: linear-gradient(to right, green 0%, orange 50%, red 100%);
   
 
 }
@@ -44,7 +44,7 @@
 
 .cloud {
   position: absolute;
-  top: -60px;
+  top: -45px;
   transform: translateX(-50%);
   background-color: green;
   color: white;

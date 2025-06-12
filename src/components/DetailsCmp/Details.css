@@ -1,12 +1,43 @@
-.Details{
-    margin-top: 10px;
-    padding: 30px;
+.Details {
+  margin-top: 10px;
+  padding: 30px;
 }
 
-.containerD{
-    padding: 15px;
+.containerD {
+  padding: 15px;
 }
 
-.margin{
-    margin-bottom: 20px;
+.margin {
+  margin-bottom: 20px;
+}
+
+.containerD .flex {
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+@media (max-width: 1250px) {
+
+
+  .containerD {
+    width: 85.5% !important;
+    padding: 10px;
+  }
+
+  .containerD .flex {
+    gap: 20px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  
+}
+
+@media (max-width: 900px) {
+  
+}
+
+@media (max-width: 700px) {
+  
 }

@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import './Medical.css';
 
-function MedicalReport() {
+interface MedicalReportProps {
+  name: string;
+}
+
+function MedicalReport(props: MedicalReportProps) {
   const [isClicked, setIsClicked] = useState(false);
 
   function crossed() {
@@ -13,8 +17,7 @@ function MedicalReport() {
     <>
       {!isClicked && (
         <div className="container">
-          {/* Left side: Logo + Text */}
-          <div className="left-section flex gap-4 items-center">
+          <div className=" flex gap-4 items-center">
             <div className="avatar">image</div>
             <div>
               <h1>FULLERTON</h1>
@@ -22,9 +25,8 @@ function MedicalReport() {
             </div>
           </div>
 
-          {/* Right side: Name + Cross */}
-          <div className="right-section flex items-center gap-4">
-            <div className="user-name">Sarah Smith</div>
+          <div className=" flex items-center gap-4">
+            <div className="user-name">{props.name}</div>
             <div>HealthReport - 4/12/2002</div>
             <div className="cross" onClick={crossed}>Cross</div>
           </div>

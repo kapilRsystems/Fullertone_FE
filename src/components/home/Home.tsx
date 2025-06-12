@@ -6,15 +6,17 @@ import { BodyComponent } from '@darshanpatel2608/human-body-react'
 import { NavLink } from 'react-router-dom'
 
 function Home() {
+
+  const name = "sahra smith"
   
   return (
     <>
-        <MedicalReport/>
+        <MedicalReport name={name}/>
         <PatienetDetail/>
 
-        <div className='containerH flex justify-center gap-[100px]'>
+        <div className='containerH flex justify-center w- gap-[100px]'>
 
-          <div className='flex flex-col justify-center items-center h-[500px] w-[200px] gap-[100px] text-blue-400'>
+          <div className='div1 flex flex-col justify-center items-center h-[500px] w-[200px] gap-[100px] text-blue-400'>
 
           <div className='flex gap-[20px]'>
             <div>img</div>
@@ -46,11 +48,11 @@ function Home() {
           </div>
         </div>
 
-        <div className='home-body w-[250px] text-center'>
+        <div className='div2 home-body w-[250px] text-center'>
           <BodyComponent partsInput={{}}  />
         </div>
 
-        <div className='flex flex-col justify-center items-center h-[500px] w-[200px] gap-[100px] text-blue-400'>
+        <div className='div3 flex flex-col justify-center items-center h-[500px] w-[200px] gap-[100px] text-blue-400'>
 
           <div className='flex gap-[20px]'>
             <div>img</div>

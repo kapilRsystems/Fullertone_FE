@@ -41,10 +41,10 @@ function Navbar() {
       </div>
 
       <button
-        className="absolute w-[50px] right-2 bg-white border border-black rounded-full p-2 shadow-md hover:bg-gray-200"
+        className=" w-[160px] h-[70px]  bg-white "
         onClick={scrollRight}
       >
-        <div>right btn</div>
+        <div className=''>right btn</div>
 
       </button>
     </div>

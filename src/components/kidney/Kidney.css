@@ -1,6 +1,6 @@
 .button{
   margin-top: 10px;
-  padding-left: 50px;
+  padding-left: 15px;
 }
 
 .kidney-page svg path {
@@ -13,5 +13,50 @@
 }
 
 .detail{
-  padding: 20px;
+  padding: 10px;
 }
+
+@media (max-width: 1250px) {
+  .button {
+    width: 85.5%;
+  }
+
+  .svg {
+    position: relative;
+    right: 30px;
+  }
+
+  .svg2 {
+    position: relative;
+    right: -525px;
+  }
+
+  .dropdown-panel {
+    width: 85.5% !important;
+    padding: 10px;
+  }
+
+  .dropdown-item {
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .dropdown-item > div {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .dropdown-item .h-\[50px\] {
+    height: auto !important;
+  }
+}
+
+@media (max-width:950px){
+  .button{
+    height: 100px;
+    display: flex ;
+  }
+}
+

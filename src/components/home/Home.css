@@ -12,3 +12,39 @@
   fill: #3b82f6 ;
   pointer-events: none;
 }
+
+
+@media (max-width: 800px) {
+  .containerH {
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5px !important;
+  }
+
+  .div1 {
+    order: 1;
+  }
+
+  .div3 {
+    order: 2;
+  }
+
+  .div2 {
+    order: 3;
+  }
+}
+
+@media (max-width: 600px) {
+  .containerH {
+    flex-direction: column !important;
+    gap: 30px !important;
+  }
+
+  .div1,
+  .div3,
+  .div2 {
+    width: 100% !important;
+    align-items: center;
+  }
+}
