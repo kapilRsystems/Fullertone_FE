@@ -4,7 +4,11 @@
   "private": true,
   "dependencies": {
     "@darshanpatel2608/human-body-react": "^1.2.9",
+    "@progress/kendo-drawing": "^1.21.2",
+    "@progress/kendo-licensing": "^1.6.0",
     "@progress/kendo-react-buttons": "^11.1.0",
+    "@progress/kendo-react-charts": "^11.1.0",
+    "@progress/kendo-react-intl": "^11.1.0",
     "@progress/kendo-theme-default": "^11.0.2",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -14,6 +18,7 @@
     "@types/node": "^16.18.126",
     "@types/react": "^19.1.6",
     "@types/react-dom": "^19.1.6",
+    "@types/react-router-dom": "^5.3.3",
     "axios": "^1.9.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -27,7 +32,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "postinstall": "npx kendo-ui-license activate"
   },
   "eslintConfig": {
     "extends": [

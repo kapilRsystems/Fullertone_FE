@@ -1,9 +1,9 @@
 import React from 'react'
 import './App.css';
-import Home from './components/home/Home';
+import Home from './components/Home/Home';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Kidney from './components/kidney/Kidney';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (

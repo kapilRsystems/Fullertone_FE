@@ -1,32 +1,43 @@
 import React, { useState } from 'react';
 import "./Kidney.css";
 import { BodyComponent } from '@darshanpatel2608/human-body-react';
-import Navbar from '../navbar/Navbar';
-import MedicalReport from '../medicalReport/MedicalReport';
+import Navbar from '../Navbar/Navbar';
+import MedicalReport from '../MedicalReport/MedicalReport';
 import Details from '../DetailsCmp/Details';
 import ProgressBar from '../ProgressBarCmp/ProgressBar';
+import ChartContainer from '../ChartContainer/ChartContainer';
 
 function Kidney() {
   const [isOpen, setIsOpen] = useState<number | null>(null);
-  const [selected, setSelected] = useState("default-radio-2");
 
   const toggleDropdown = (id: number) => {
     setIsOpen(prev => (prev === id ? null : id));
   };
 
-  const name = "sahra smith";
+  const name = "Sarah Smith";
+
+  const firstSeries1 = [23.4, 20, 22.1, 17];
+  const firstSeries2 = [16, 17, 14, 19];
+
+  const title1 = "Body Mass Index"
+  const title2 = "Body Fat"
 
   return (
     <>
       <MedicalReport name={name} />
       <Navbar />
-      <div className='flex justify-between h-full bg-blue-100'>
-        <div className='kidney-page flex justify-center items-center lg:w-1/4 w-full h-full p-4'>
-          <BodyComponent partsInput={{}} />
+      <div className='containerk flex  h-full bg-blue-100'>
+
+        <div className='flex justify-center items-center lg:w-1/4 w-[370px] h-[598px] p-4'>
+          <img src="/body.png" alt="body_png" className="image h-[500px] object-contain -mt-6"/>
         </div>
 
-        <div className='flex flex-col w-full max-w-[1000px] px-4 py-4'>
+
+        <div className='flex flex-col w-full max-w-[1000px] px-4 py-4'> 
           <div className="relative w-full max-w-[900px] mx-auto text-left mb-4">
+
+            <button className='marginT bg-yellow-500 h-[40px] w-[120px] relative left-[770px] rounded-xl border border-blue-500'><span>i</span> Downloads</button>
+
             <button
               onClick={() => toggleDropdown(0)}
               type="button"
@@ -107,6 +118,28 @@ function Kidney() {
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
               </svg>
             </button>
+
+            {isOpen === 2 && (
+              <div className='dropdown-panel flex flex-col w-full max-w-[900px] h-auto bg-white mt-2 p-4'>
+              
+                <div className="flex flex-wrap justify-between items-center">
+                  <div className="bg-pink-300 w-[350px] h-[300px]">
+                    <ChartContainer firstseries = {firstSeries1} title={title1} />
+                  </div>
+                  <div className="w-[350px] h-[300px]">
+                    <ChartContainer firstseries = {firstSeries2} title = {title2} />
+                  </div>
+                </div>
+                        
+                <div className='detail'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium perferendis obcaecati ipsa quisquam
+                   reprehenderit, animi ex voluptatem ab culpa quidem!
+                </div>
+                        
+              </div>
+            )}
+
+
           </div>
         </div>
       </div>

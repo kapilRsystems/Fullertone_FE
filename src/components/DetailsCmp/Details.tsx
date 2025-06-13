@@ -10,28 +10,28 @@ function Details() {
 
             <div className="flex gap-40">
               <div>
-                <div className="flex gap-2">
+                <div className="flex">
                   <div>i</div>
                   <div>Height</div>
                 </div>
                 <div className='font-bold text-blue-600'>1.711 m</div>
               </div>
               <div>
-                <div className="flex gap-2">
+                <div className="flex">
                   <div>i</div>
                   <div>BMI</div>
                 </div>
                 <div className='font-bold text-blue-600'>0.711 kg/m<sup>2</sup></div>
               </div>
               <div>
-                <div className="flex gap-2">
+                <div className="flex">
                   <div>i</div>
                   <div>Weight</div>
                 </div>
                 <div className='font-bold text-blue-600'>68.1 kg</div>
               </div>
               <div>
-                <div className="flex gap-2">
+                <div className="flex">
                   <div>i</div>
                   <div>Body Fat</div>
                 </div>

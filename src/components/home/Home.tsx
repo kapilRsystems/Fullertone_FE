@@ -1,13 +1,13 @@
 import React from 'react'
 import "./Home.css"
-import MedicalReport from '../medicalReport/MedicalReport'
-import PatienetDetail from '../patientDetail/PatienetDetail'
+import MedicalReport from '../MedicalReport/MedicalReport'
+import PatienetDetail from '../PatientDetail/PatienetDetail'
 import { BodyComponent } from '@darshanpatel2608/human-body-react'
 import { NavLink } from 'react-router-dom'
 
 function Home() {
 
-  const name = "sahra smith"
+  const name = "Sarah Smith"
   
   return (
     <>
